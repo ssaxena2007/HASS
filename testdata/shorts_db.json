@@ -1,0 +1,4457 @@
+[
+  {
+    "kind": "youtube#video",
+    "etag": "9kwEJhlDhVOtsVt3LKOgpoQjcOw",
+    "id": "uNM5QeJd64Q",
+    "snippet": {
+      "publishedAt": "2025-11-06T14:47:30Z",
+      "channelId": "UCCezIgC97PvUuR4_gbFUs5g",
+      "title": "Create Your First Pydantic Model in Python",
+      "description": "Watch the full free tutorial here:\nhttps://youtu.be/M81pfi64eeM\n\nMore Python tutorials: youtube.com/c/coreyms\n\n#Python #Tutorial #Pydantic",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/uNM5QeJd64Q/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/uNM5QeJd64Q/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/uNM5QeJd64Q/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/uNM5QeJd64Q/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/uNM5QeJd64Q/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Corey Schafer",
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Create Your First Pydantic Model in Python",
+        "description": "Watch the full free tutorial here:\nhttps://youtu.be/M81pfi64eeM\n\nMore Python tutorials: youtube.com/c/coreyms\n\n#Python #Tutorial #Pydantic"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT53S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "IGk393WKcS5yJfTsB6X6wNq44kI",
+    "id": "q73vG-oG9KE",
+    "snippet": {
+      "publishedAt": "2025-11-04T00:01:51Z",
+      "channelId": "UCCezIgC97PvUuR4_gbFUs5g",
+      "title": "Stop Writing Manual Validation Code in Python",
+      "description": "Watch the full free tutorial here:\nhttps://youtu.be/M81pfi64eeM\n\nMore Python tutorials: youtube.com/@coreyms\n\n#Python #Pydantic",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/q73vG-oG9KE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/q73vG-oG9KE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/q73vG-oG9KE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/q73vG-oG9KE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/q73vG-oG9KE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Corey Schafer",
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Stop Writing Manual Validation Code in Python",
+        "description": "Watch the full free tutorial here:\nhttps://youtu.be/M81pfi64eeM\n\nMore Python tutorials: youtube.com/@coreyms\n\n#Python #Pydantic"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT55S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "urnGGvAV3H75vuW_F8CLy1XQUCo",
+    "id": "LQ1tm5lkaLI",
+    "snippet": {
+      "publishedAt": "2024-04-17T21:52:16Z",
+      "channelId": "UCCezIgC97PvUuR4_gbFUs5g",
+      "title": "Python Quick Tip: Secure Passwords and Sensitive Info with DotEnv #Shorts #Python #Programming",
+      "description": "Learn how to properly manage sensitive information within Python scripts.\nWatch the full tutorial for a more in-depth explanation: https://youtu.be/PYuTzLswn_Y\n\n#Python #Programming #CodingTips #Shorts \n\nSubscribe to view our entire library of programming tutorials!",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/LQ1tm5lkaLI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/LQ1tm5lkaLI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/LQ1tm5lkaLI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/LQ1tm5lkaLI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/LQ1tm5lkaLI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Corey Schafer",
+      "tags": [
+        "Python",
+        "Quick Tip",
+        "Shorts",
+        "Programming",
+        "Security",
+        "Password",
+        "API Keys",
+        "python environment variables",
+        "python tutorial",
+        "environment variables"
+      ],
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Python Quick Tip: Secure Passwords and Sensitive Info with DotEnv #Shorts #Python #Programming",
+        "description": "Learn how to properly manage sensitive information within Python scripts.\nWatch the full tutorial for a more in-depth explanation: https://youtu.be/PYuTzLswn_Y\n\n#Python #Programming #CodingTips #Shorts \n\nSubscribe to view our entire library of programming tutorials!"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT55S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "6EuocvjEIA4ZwJXdmSX8iGBuATA",
+    "id": "lytlt8gBAYo",
+    "snippet": {
+      "publishedAt": "2025-11-06T20:00:47Z",
+      "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "title": "THINK FAST: register for Devfest!",
+      "description": "Where did the box go? Never you mind. Just ask us about DevFest.\n\nResources:\nRSVP for DevFest here → https://goo.gle/43wInOK \n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nEvent: DevFest \n\nSpeaker: Crystal Endless",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/lytlt8gBAYo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/lytlt8gBAYo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/lytlt8gBAYo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/lytlt8gBAYo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/lytlt8gBAYo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Google for Developers",
+      "tags": [
+        "Google",
+        "developers",
+        "pr_pr: Google Developer Groups;",
+        "Purpose: Learn;",
+        "Campaign: ;",
+        "Video Type:Trailer/Promo;",
+        "ct: AIG; ;",
+        "gds:Yes;"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "THINK FAST: register for Devfest!",
+        "description": "Where did the box go? Never you mind. Just ask us about DevFest.\n\nResources:\nRSVP for DevFest here → https://goo.gle/43wInOK \n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nEvent: DevFest \n\nSpeaker: Crystal Endless"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT9S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "yLRr-MlUGqazhafw8b_0vTwE-9M",
+    "id": "yx9zHnBK85o",
+    "snippet": {
+      "publishedAt": "2025-11-06T17:29:09Z",
+      "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "title": "Just in 📰: Google Play Console updates -Gemini localization & deep link validation",
+      "description": "Uncover powerful new tools and features in Google Play Console designed for app developers. See how you can leverage Gemini for effortless localization, ensure reliable deep linking, and more!  Explore how these updates can accelerate your app's success and market reach.\n\nResources: \n Learn more → https://goo.gle/49711R4\n\nSubscribe to Google for Developers → https://goo.gle/developers \n\n#GoogleDeveloperNews\n\nSpeaker: Andrew Brogdon\nProducts Mentioned:  Gemini",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/yx9zHnBK85o/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/yx9zHnBK85o/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/yx9zHnBK85o/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/yx9zHnBK85o/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/yx9zHnBK85o/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Google for Developers",
+      "tags": [
+        "Google",
+        "developers",
+        "pr_pr: Google for Developers;",
+        "Purpose: Influence;",
+        "Campaign: ;",
+        "Video Type:G4D SV: Educational ;",
+        "ct: AIG; ;",
+        "gds:Yes;"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Just in 📰: Google Play Console updates -Gemini localization & deep link validation",
+        "description": "Uncover powerful new tools and features in Google Play Console designed for app developers. See how you can leverage Gemini for effortless localization, ensure reliable deep linking, and more!  Explore how these updates can accelerate your app's success and market reach.\n\nResources: \n Learn more → https://goo.gle/49711R4\n\nSubscribe to Google for Developers → https://goo.gle/developers \n\n#GoogleDeveloperNews\n\nSpeaker: Andrew Brogdon\nProducts Mentioned:  Gemini"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT58S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "sncCnXGkiD8ClpKD_vB2azx1nwM",
+    "id": "ukW6n0UCp5g",
+    "snippet": {
+      "publishedAt": "2025-11-06T05:01:10Z",
+      "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "title": "Supercharge your agents with Agent2Agent (A2A) Protocol! ⚡",
+      "description": "AI agents can write code, fetch data, and handle multi-step tasks, but often work in isolation. See how the Agent2Agent (A2A) Protocol can help your agents communicate, coordinate, and complete tasks across different systems. \n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: M.E Francis \nProducts Mentioned: Cloud",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/ukW6n0UCp5g/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ukW6n0UCp5g/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ukW6n0UCp5g/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ukW6n0UCp5g/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/ukW6n0UCp5g/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Google for Developers",
+      "tags": [
+        "Google",
+        "developers",
+        "pr_pr: Google for Developers;",
+        "Purpose: Influence;",
+        "Campaign: STV; type:G4D SV: Comedic skits;",
+        "gds:Yes;"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Supercharge your agents with Agent2Agent (A2A) Protocol! ⚡",
+        "description": "AI agents can write code, fetch data, and handle multi-step tasks, but often work in isolation. See how the Agent2Agent (A2A) Protocol can help your agents communicate, coordinate, and complete tasks across different systems. \n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: M.E Francis \nProducts Mentioned: Cloud"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT1M",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "o24eQLY45ejvSLSepTPMyNOMpQQ",
+    "id": "LXqassleEcw",
+    "snippet": {
+      "publishedAt": "2025-11-05T20:00:31Z",
+      "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "title": "Don’t forget to join us at #TheAndroidShow",
+      "description": "A behind the scenes peek at where Google devs ideate, design, and ship features that help developers distribute their apps and games. Get the full scoop at #TheAndroidShow!\n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: Sajna Verna",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/LXqassleEcw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/LXqassleEcw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/LXqassleEcw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/LXqassleEcw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/LXqassleEcw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Google for Developers",
+      "tags": [
+        "Google",
+        "developers",
+        "pr_pr: Google for Developers;",
+        "Purpose: Learn;",
+        "Campaign: ;",
+        "type:Trailer/Promo;",
+        "ct: AIG;;",
+        "gds:Yes;"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Don’t forget to join us at #TheAndroidShow",
+        "description": "A behind the scenes peek at where Google devs ideate, design, and ship features that help developers distribute their apps and games. Get the full scoop at #TheAndroidShow!\n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: Sajna Verna"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT24S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "wUTWPRFEexsuzBBsH257pFFAln0",
+    "id": "wACQU4TWHTw",
+    "snippet": {
+      "publishedAt": "2025-11-05T05:01:13Z",
+      "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "title": "That feeling when you drop your app's wait time. ⚡️",
+      "description": "Why, yes. I am happier that my app is low-latency. \n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: M.E Francis",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/wACQU4TWHTw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/wACQU4TWHTw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/wACQU4TWHTw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/wACQU4TWHTw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/wACQU4TWHTw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Google for Developers",
+      "tags": [
+        "Google",
+        "developers",
+        "pr_pr: Google for Developers;",
+        "Purpose: Influence;",
+        "Campaign: ;",
+        "type:G4D SV: Comedic skits;",
+        "ct: AIG;;",
+        "gds:Yes;"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "That feeling when you drop your app's wait time. ⚡️",
+        "description": "Why, yes. I am happier that my app is low-latency. \n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: M.E Francis"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT13S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "p43Mp2DtZF-oNrzylqzJr-Gh_mk",
+    "id": "gq6mXwicBO4",
+    "snippet": {
+      "publishedAt": "2025-11-03T14:01:23Z",
+      "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "title": "What’s going to happen when we call show()? Go!",
+      "description": "Here's a Python scoping puzzle that catches many developers off guard! This code appears straightforward - print a global variable, reassign it locally, print again. But Python's scoping rules have a surprise in store. Will this print 10 and 5, or will it raise an error? Understanding local versus global scope is essential for writing correct Python code.\n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeakers: Juan Vazquez",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/gq6mXwicBO4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/gq6mXwicBO4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/gq6mXwicBO4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/gq6mXwicBO4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/gq6mXwicBO4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Google for Developers",
+      "tags": [
+        "Google",
+        "developers",
+        "pr_pr: Google for Developers;",
+        "Purpose: Learn;",
+        "Campaign: G4D: Puzzles;",
+        "Video Type:G4D SV: Educational ;",
+        "ct: AIG;;",
+        "gds:Yes;"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "What’s going to happen when we call show()? Go!",
+        "description": "Here's a Python scoping puzzle that catches many developers off guard! This code appears straightforward - print a global variable, reassign it locally, print again. But Python's scoping rules have a surprise in store. Will this print 10 and 5, or will it raise an error? Understanding local versus global scope is essential for writing correct Python code.\n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeakers: Juan Vazquez"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT20S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "NDqIFzktrbTJ1mdS9qnUltm07gI",
+    "id": "1QdNxfI2wTc",
+    "snippet": {
+      "publishedAt": "2025-10-31T04:00:06Z",
+      "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "title": "A developer’s haunted house 👻",
+      "description": "Outdated dependencies, endless meetings, and 3-way merge conflicts? Screamworthy! \n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: M.E Francis",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/1QdNxfI2wTc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/1QdNxfI2wTc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/1QdNxfI2wTc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/1QdNxfI2wTc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/1QdNxfI2wTc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Google for Developers",
+      "tags": [
+        "Google",
+        "developers",
+        "pr_pr: Google for Developers;",
+        "Purpose: Learn;",
+        "Campaign: ;",
+        "type:G4D SV: Holiday or Observance;",
+        "ct: AIG;;",
+        "gds:Yes;"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "A developer’s haunted house 👻",
+        "description": "Outdated dependencies, endless meetings, and 3-way merge conflicts? Screamworthy! \n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: M.E Francis"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT24S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "ERswmn0GYcJ1HuQnF20ESJtGS7A",
+    "id": "DuP1yo6jWmA",
+    "snippet": {
+      "publishedAt": "2025-10-30T04:00:12Z",
+      "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "title": "The Halloween Haul - The Developer’s Version",
+      "description": "Some tricks, some treats, but everyone is excited for those AI goodies 👻\n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: M.E Francis, Meg Bauman, Bri Davis",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/DuP1yo6jWmA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/DuP1yo6jWmA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/DuP1yo6jWmA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/DuP1yo6jWmA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/DuP1yo6jWmA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Google for Developers",
+      "tags": [
+        "Google",
+        "developers",
+        "pr_pr: Google for Developers;",
+        "Purpose: Learn;",
+        "Campaign: ;",
+        "type:G4D SV: Holiday or Observance;",
+        "ct: AIG;;",
+        "gds:Yes;"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "The Halloween Haul - The Developer’s Version",
+        "description": "Some tricks, some treats, but everyone is excited for those AI goodies 👻\n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: M.E Francis, Meg Bauman, Bri Davis"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT18S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "TdJaiedroWNTUAe1J8gOK30gHnw",
+    "id": "gYZS61BRXW0",
+    "snippet": {
+      "publishedAt": "2025-10-29T04:01:00Z",
+      "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "title": "Dev Debates: small commits or big commits? Tests before or after?",
+      "description": "Developers sound off on their favorite coding practices. Share yours below. \n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nEvent: Google IO",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/gYZS61BRXW0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/gYZS61BRXW0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/gYZS61BRXW0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/gYZS61BRXW0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/gYZS61BRXW0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Google for Developers",
+      "tags": [
+        "Google",
+        "developers",
+        "pr_pr: Google for Developers;",
+        "Purpose: Influence;",
+        "Campaign: ;",
+        "Video Type:G4D SV: I/O ;",
+        "ct: AIG; ;",
+        "gds:Yes;"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Dev Debates: small commits or big commits? Tests before or after?",
+        "description": "Developers sound off on their favorite coding practices. Share yours below. \n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nEvent: Google IO"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT46S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "vVp6IGWwWIfHkJ-zvctdoms63qo",
+    "id": "LoV307-d19A",
+    "snippet": {
+      "publishedAt": "2025-10-27T13:00:51Z",
+      "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "title": "What do you think the second print will show? Go!",
+      "description": "Here's a classic Python gotcha that trips up developers at all levels! This simple helper function appears straightforward, but mutable default arguments create unexpected behavior. When you call this function twice, the results might surprise you. Understanding how Python handles default arguments is crucial for avoiding subtle bugs. What do you think the second print statement outputs?\n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeakers: Juan Vasquez",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/LoV307-d19A/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/LoV307-d19A/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/LoV307-d19A/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/LoV307-d19A/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/LoV307-d19A/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Google for Developers",
+      "tags": [
+        "Google",
+        "developers",
+        "pr_pr: Google for Developers;",
+        "Purpose: Learn;",
+        "Campaign: G4D: Puzzles;",
+        "Video Type:G4D SV: Educational ;",
+        "ct: AIG;;",
+        "gds:Yes;"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "What do you think the second print will show? Go!",
+        "description": "Here's a classic Python gotcha that trips up developers at all levels! This simple helper function appears straightforward, but mutable default arguments create unexpected behavior. When you call this function twice, the results might surprise you. Understanding how Python handles default arguments is crucial for avoiding subtle bugs. What do you think the second print statement outputs?\n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeakers: Juan Vasquez"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT17S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "1PVZzGPswEhZVvWMvdP5N4bZp1U",
+    "id": "yjvE8jLVvDQ",
+    "snippet": {
+      "publishedAt": "2025-10-23T23:01:17Z",
+      "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "title": "Good tests catch real bugs in behavior. Change detectors don’t, devs.☝️",
+      "description": "Change detectors can slow down development so either delete or rewrite them. Make sure your tests are checking the behavior of your code!\n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: M.E Francis",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/yjvE8jLVvDQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/yjvE8jLVvDQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/yjvE8jLVvDQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/yjvE8jLVvDQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/yjvE8jLVvDQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Google for Developers",
+      "tags": [
+        "Google",
+        "developers",
+        "pr_pr: Google for Developers;",
+        "Purpose: Learn;",
+        "Campaign: TIPS; type:G4D SV: Educational ;",
+        "ct: AIG;",
+        "gds:Yes;"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Good tests catch real bugs in behavior. Change detectors don’t, devs.☝️",
+        "description": "Change detectors can slow down development so either delete or rewrite them. Make sure your tests are checking the behavior of your code!\n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: M.E Francis"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT1M",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "uWfDZk6Jti2yHyk8dXsp9cLP2bI",
+    "id": "CwqJ0HwarSc",
+    "snippet": {
+      "publishedAt": "2025-10-23T19:00:13Z",
+      "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "title": "What's on the newsdesk for October on Google for Developers? Take a peek!",
+      "description": "This October, discover the latest innovations from Google, featuring breakthroughs in AI agent development with the Gemini-powered Computer Use model and Gemini CLI extensions. Dive into new tools like Jules and the Agent Development Kit, and get ready for exciting hackathons and DevFest 2025.\n\nWatch more Google Developer News → https://goo.gle/4e8Rysd  \nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: Rody Davis \nProducts Mentioned: Gemini, Agent Developer Kit (ADK)",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/CwqJ0HwarSc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/CwqJ0HwarSc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/CwqJ0HwarSc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/CwqJ0HwarSc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/CwqJ0HwarSc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Google for Developers",
+      "tags": [
+        "Google",
+        "developers",
+        "pr_pr: Google for Developers;",
+        "Purpose: Learn;",
+        "Campaign: ;",
+        "Video Type:G4D SV: Educational ;",
+        "ct: AIG; ;",
+        "gds:Yes;"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "What's on the newsdesk for October on Google for Developers? Take a peek!",
+        "description": "This October, discover the latest innovations from Google, featuring breakthroughs in AI agent development with the Gemini-powered Computer Use model and Gemini CLI extensions. Dive into new tools like Jules and the Agent Development Kit, and get ready for exciting hackathons and DevFest 2025.\n\nWatch more Google Developer News → https://goo.gle/4e8Rysd  \nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: Rody Davis \nProducts Mentioned: Gemini, Agent Developer Kit (ADK)"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT33S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "7z3ZeIu_AAIxjVK-JI6JCuTXq2c",
+    "id": "JhNC3iEZn5A",
+    "snippet": {
+      "publishedAt": "2025-10-22T16:40:27Z",
+      "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "title": "The name’s not Amy, but you should register for DevFest.",
+      "description": "Don’t ask us to fix a bike tire. Just ask us about DevFest.\n\nResources:\n\nRSVP for DevFest here → https://goo.gle/43wInOK \n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: Crystal Endless \nEvent: DevFest 2025",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/JhNC3iEZn5A/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/JhNC3iEZn5A/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/JhNC3iEZn5A/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/JhNC3iEZn5A/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/JhNC3iEZn5A/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Google for Developers",
+      "tags": [
+        "Google",
+        "developers",
+        "pr_pr: Google Developer Groups;",
+        "Purpose: Learn;",
+        "Campaign: ;",
+        "Video Type:Trailer/Promo;",
+        "ct: AIG; ;",
+        "gds:Yes;"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "The name’s not Amy, but you should register for DevFest.",
+        "description": "Don’t ask us to fix a bike tire. Just ask us about DevFest.\n\nResources:\n\nRSVP for DevFest here → https://goo.gle/43wInOK \n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: Crystal Endless \nEvent: DevFest 2025"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT12S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "kSSvgoQfopq_p972brvBB1u3x9Q",
+    "id": "8uYhYLaR2Cw",
+    "snippet": {
+      "publishedAt": "2025-10-22T04:00:12Z",
+      "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "title": "That moment when the code works, but the explanation is still compiling.",
+      "description": "When the code ships but the words get stuck in an infinite loop. 🔁\n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: M.E Francis",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/8uYhYLaR2Cw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/8uYhYLaR2Cw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/8uYhYLaR2Cw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/8uYhYLaR2Cw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/8uYhYLaR2Cw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Google for Developers",
+      "tags": [
+        "Google",
+        "developers",
+        "pr_pr: Google for Developers;",
+        "Purpose: Influence;",
+        "Campaign: ;",
+        "Video Type:G4D SV: Comedic skits;",
+        "ct: AIG; ;",
+        "gds:Yes;"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "That moment when the code works, but the explanation is still compiling.",
+        "description": "When the code ships but the words get stuck in an infinite loop. 🔁\n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: M.E Francis"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT18S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "A4yhR7fqa9R91mfDLFz2mwDSPtc",
+    "id": "L1QlVr686Bg",
+    "snippet": {
+      "publishedAt": "2025-10-20T13:00:47Z",
+      "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "title": "What actually prints to the console and why? Go!",
+      "description": "Here’s a sneaky TypeScript developer challenge. We map an array of strings to numbers using parseInt. It compiles cleanly and looks like it should return [1, 2, 3]. But the actual output is something very different. Why does this happen, and how would you fix the code so the output matches your intent? Share your answers in the comments.\n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeakers: Meg Bauman",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/L1QlVr686Bg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/L1QlVr686Bg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/L1QlVr686Bg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/L1QlVr686Bg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/L1QlVr686Bg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Google for Developers",
+      "tags": [
+        "pr_pr: Google for Developers;",
+        "Purpose: Learn;",
+        "Campaign: G4D: Puzzles;",
+        "Video Type:G4D SV: Educational ;",
+        "ct: AIG;;",
+        "gds:Yes;"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "What actually prints to the console and why? Go!",
+        "description": "Here’s a sneaky TypeScript developer challenge. We map an array of strings to numbers using parseInt. It compiles cleanly and looks like it should return [1, 2, 3]. But the actual output is something very different. Why does this happen, and how would you fix the code so the output matches your intent? Share your answers in the comments.\n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeakers: Meg Bauman"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT19S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "3HaaH0kBoNzixJApYt6cYGTpbk8",
+    "id": "wNXU9YsJpbA",
+    "snippet": {
+      "publishedAt": "2025-10-16T04:01:15Z",
+      "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "title": "Villain origin story loading🪫",
+      "description": "Asked to fix a computer because you’re a developer? Challenge accepted. \n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: Meg Bauman",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/wNXU9YsJpbA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/wNXU9YsJpbA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/wNXU9YsJpbA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/wNXU9YsJpbA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/wNXU9YsJpbA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Google for Developers",
+      "tags": [
+        "Google",
+        "developers",
+        "pr_pr: Google for Developers;",
+        "Purpose: Influence;",
+        "gds:Yes;",
+        "type:G4D SV: Comedic skits;"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Villain origin story loading🪫",
+        "description": "Asked to fix a computer because you’re a developer? Challenge accepted. \n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: Meg Bauman"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT8S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "Y_GEPQ3G3dY1cCQnnTUecviAazM",
+    "id": "gKP27LJatkc",
+    "snippet": {
+      "publishedAt": "2025-10-15T16:10:05Z",
+      "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "title": "Curing primitive obsession with better types 🪄",
+      "description": "Are you overusing basic types in your code? You might have a primitive obsession. Trade confusing primitives for elegant, custom types. \n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: M.E Francis",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/gKP27LJatkc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/gKP27LJatkc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/gKP27LJatkc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/gKP27LJatkc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/gKP27LJatkc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Google for Developers",
+      "tags": [
+        "Google",
+        "developers",
+        "pr_pr: Google for Developers;",
+        "Purpose: Learn;",
+        "Campaign: TIPS; type:G4D SV: Educational ;",
+        "gds:Yes;"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Curing primitive obsession with better types 🪄",
+        "description": "Are you overusing basic types in your code? You might have a primitive obsession. Trade confusing primitives for elegant, custom types. \n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: M.E Francis"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT57S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "Ef7NrNqnjDQVri_sFgPlN71RUJg",
+    "id": "OU9-7Vjkbiw",
+    "snippet": {
+      "publishedAt": "2025-10-14T19:00:23Z",
+      "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "title": "Timelines meet reality 👨‍💻",
+      "description": "Just another day in the life. \n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: Meg Bauman, Crystal Endless, Bri Davis",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/OU9-7Vjkbiw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/OU9-7Vjkbiw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/OU9-7Vjkbiw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/OU9-7Vjkbiw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/OU9-7Vjkbiw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Google for Developers",
+      "tags": [
+        "Google",
+        "developers",
+        "pr_pr: Google for Developers;",
+        "Purpose: Influence;",
+        "gds:Yes;",
+        "Video Type:G4D SV: Comedic skits;"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Timelines meet reality 👨‍💻",
+        "description": "Just another day in the life. \n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: Meg Bauman, Crystal Endless, Bri Davis"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT16S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "9yTWlyAf80x6E2jfuuO0dnX6q_M",
+    "id": "HvKALwVC9JM",
+    "snippet": {
+      "publishedAt": "2025-10-13T16:21:20Z",
+      "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "title": "Why does TypeScript let you assign a RobotDog to a variable typed as Dog? Go!",
+      "description": "In this Developer Challenge, a RobotDog can be assigned to a variable typed as Dog, even though RobotDog doesn’t extend Dog. At first glance, this feels like a type system bug. But TypeScript is working as intended!\nThe twist? Add a private field to Dog and suddenly the assignment fails. Why does this happen, and what does it reveal about how TypeScript checks compatibility? Drop your explanation in the comments!\n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeakers: Meg Bauman",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/HvKALwVC9JM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/HvKALwVC9JM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/HvKALwVC9JM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/HvKALwVC9JM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/HvKALwVC9JM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Google for Developers",
+      "tags": [
+        "Google",
+        "developers",
+        "pr_pr: Google for Developers;",
+        "Purpose: Learn;",
+        "Video Type:G4D SV: Educational ;",
+        "gds:Yes;",
+        "Campaign: G4D: Puzzles;"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Why does TypeScript let you assign a RobotDog to a variable typed as Dog? Go!",
+        "description": "In this Developer Challenge, a RobotDog can be assigned to a variable typed as Dog, even though RobotDog doesn’t extend Dog. At first glance, this feels like a type system bug. But TypeScript is working as intended!\nThe twist? Add a private field to Dog and suddenly the assignment fails. Why does this happen, and what does it reveal about how TypeScript checks compatibility? Drop your explanation in the comments!\n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeakers: Meg Bauman"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT23S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "_ygnvPZdgI1eCdfq5vpRLhxPzaw",
+    "id": "ebqiyJDLL98",
+    "snippet": {
+      "publishedAt": "2025-10-10T04:01:00Z",
+      "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "title": "Code should read like a story, not a logic puzzle 📝",
+      "description": "Avoid confusing double negatives by using positive booleans. It’s a simple change that makes your logic clear and your code easier to read for you and your team.\n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: M.E Francis",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/ebqiyJDLL98/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ebqiyJDLL98/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ebqiyJDLL98/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ebqiyJDLL98/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/ebqiyJDLL98/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Google for Developers",
+      "tags": [
+        "Google",
+        "developers",
+        "pr_pr: Google for Developers;",
+        "Purpose: Learn;",
+        "Campaign: TIPS;",
+        "type:G4D SV: Educational ;",
+        "gds:Yes;"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Code should read like a story, not a logic puzzle 📝",
+        "description": "Avoid confusing double negatives by using positive booleans. It’s a simple change that makes your logic clear and your code easier to read for you and your team.\n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: M.E Francis"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT1M",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "eIXmm7X86Yu1IRSu_4C06cVGX6g",
+    "id": "hxOFHMY4CgI",
+    "snippet": {
+      "publishedAt": "2025-10-08T23:00:51Z",
+      "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "title": "Sometimes the best way to fix a bug is to step away from the keyboard 🌊",
+      "description": "Sometimes the best debugging strategy is a walk by the ocean… just in case. \n\nSubscribe to Google for Developers → https://goo.gle/developers",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/hxOFHMY4CgI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/hxOFHMY4CgI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/hxOFHMY4CgI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/hxOFHMY4CgI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/hxOFHMY4CgI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Google for Developers",
+      "tags": [
+        "Google",
+        "developers",
+        "pr_pr: Google for Developers;",
+        "Purpose: Learn;",
+        "Campaign: ;",
+        "type:G4D SV: Comedic skits;",
+        "gds:Yes;"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Sometimes the best way to fix a bug is to step away from the keyboard 🌊",
+        "description": "Sometimes the best debugging strategy is a walk by the ocean… just in case. \n\nSubscribe to Google for Developers → https://goo.gle/developers"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT10S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "SOeS5jjfK8qiO8Lwpz_puw_Ps3g",
+    "id": "8wjvMZ1kKMU",
+    "snippet": {
+      "publishedAt": "2025-10-08T04:00:17Z",
+      "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "title": "There's only one right answer for the perfect date 😉",
+      "description": "A dev’s idea of the perfect date? YYYY-MM-DD. \n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: Crystal Endless",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/8wjvMZ1kKMU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/8wjvMZ1kKMU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/8wjvMZ1kKMU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/8wjvMZ1kKMU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/8wjvMZ1kKMU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Google for Developers",
+      "tags": [
+        "Google",
+        "developers",
+        "pr_pr: Google for Developers;",
+        "Purpose: Learn;",
+        "Campaign: ;",
+        "type:G4D SV: Comedic skits;",
+        "gds:Yes;",
+        "ct: AIG;"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "There's only one right answer for the perfect date 😉",
+        "description": "A dev’s idea of the perfect date? YYYY-MM-DD. \n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: Crystal Endless"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT17S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "-y-p50iWWWoAxkgGaIGUh8vMuFE",
+    "id": "8xK591TAiU8",
+    "snippet": {
+      "publishedAt": "2025-10-07T16:36:21Z",
+      "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "title": "Dropping a whole novel in LangExtract?",
+      "description": "How do you know if an LLM output on a reading matches the text? Good thing LangExtract is able to anchor its responses, highlighting exactly where in the text it generated its response from! \n\nResources: \nTry it out → https://goo.gle/46R1eVO \n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: Crystal Endless\nProducts Mentioned: Google AI",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/8xK591TAiU8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/8xK591TAiU8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/8xK591TAiU8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/8xK591TAiU8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/8xK591TAiU8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Google for Developers",
+      "tags": [
+        "Google",
+        "developers",
+        "pr_pr: Google for Developers;",
+        "Purpose: Learn;",
+        "Campaign: Campaign: STV;",
+        "type:G4D SV: Educational ;",
+        "gds:Yes;",
+        "ct: AIG;"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Dropping a whole novel in LangExtract?",
+        "description": "How do you know if an LLM output on a reading matches the text? Good thing LangExtract is able to anchor its responses, highlighting exactly where in the text it generated its response from! \n\nResources: \nTry it out → https://goo.gle/46R1eVO \n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: Crystal Endless\nProducts Mentioned: Google AI"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT40S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "Wp464bKkDkwspr8R2r2-Q2XxdRw",
+    "id": "bAjHqVjRj8I",
+    "snippet": {
+      "publishedAt": "2025-10-06T13:01:13Z",
+      "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "title": "Why does this compile cleanly in TypeScript, but crash when called with no arguements? Go!",
+      "description": "Here’s a TypeScript developer challenge that shows how optional parameters can get tricky. TypeScript accepts the code without errors. But the moment you call the function with no arguments, it blows up at runtime. Why does this compile cleanly, and what change would you make so the bug is caught during type checking instead of in production? Share your solution in the comments. \n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeakers: Meg Bauman",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/bAjHqVjRj8I/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/bAjHqVjRj8I/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/bAjHqVjRj8I/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/bAjHqVjRj8I/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/bAjHqVjRj8I/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Google for Developers",
+      "tags": [
+        "Google",
+        "developers",
+        "pr_pr: Google for Developers;",
+        "Purpose: Learn;",
+        "Video Type:G4D SV: Educational ;",
+        "gds:Yes;",
+        "Campaign: G4D: Puzzles;"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Why does this compile cleanly in TypeScript, but crash when called with no arguements? Go!",
+        "description": "Here’s a TypeScript developer challenge that shows how optional parameters can get tricky. TypeScript accepts the code without errors. But the moment you call the function with no arguments, it blows up at runtime. Why does this compile cleanly, and what change would you make so the bug is caught during type checking instead of in production? Share your solution in the comments. \n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeakers: Meg Bauman"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT23S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "vdn581YX_6sIi9gs5AScdeVTh2E",
+    "id": "e5onzptQghg",
+    "snippet": {
+      "publishedAt": "2025-10-02T16:01:07Z",
+      "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "title": "Just in from the news desk 📰: Google Play Games Level Up Program",
+      "description": "Unlock powerful new ways to grow your game with the Google Play Games Level Up program. Learn about the benefits, including increased player engagement through the \"You\" tab,  broader game reach on the Play Store, and more!\n\nResources: \nLearn more → https://goo.gle/4hvKSGY \n\nSubscribe to Google for Developers → https://goo.gle/developers \n\n#GoogleDeveloperNews\n\nSpeaker: Dan Galpin \nProducts Mentioned: Google Play",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/e5onzptQghg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/e5onzptQghg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/e5onzptQghg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/e5onzptQghg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/e5onzptQghg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Google for Developers",
+      "tags": [
+        "Google",
+        "developers",
+        "pr_pr: Google for Developers;",
+        "Purpose: Influence;",
+        "Campaign: ;",
+        "Video Type:G4D SV: Educational ;",
+        "ct: AIG; ;",
+        "gds:Yes;"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Just in from the news desk 📰: Google Play Games Level Up Program",
+        "description": "Unlock powerful new ways to grow your game with the Google Play Games Level Up program. Learn about the benefits, including increased player engagement through the \"You\" tab,  broader game reach on the Play Store, and more!\n\nResources: \nLearn more → https://goo.gle/4hvKSGY \n\nSubscribe to Google for Developers → https://goo.gle/developers \n\n#GoogleDeveloperNews\n\nSpeaker: Dan Galpin \nProducts Mentioned: Google Play"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT55S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "9oxMXX2VZXxGON6ztv_S7eucIFA",
+    "id": "qPSqowMfAaE",
+    "snippet": {
+      "publishedAt": "2025-10-02T04:01:05Z",
+      "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "title": "The infinite loop of estimating project timelines 🔁",
+      "description": "When a time estimate turns into a never-ending tennis match between PM and SWE. \n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: Ethan Hsu , Anaya Mehta",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/qPSqowMfAaE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/qPSqowMfAaE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/qPSqowMfAaE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/qPSqowMfAaE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/qPSqowMfAaE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Google for Developers",
+      "tags": [
+        "Google",
+        "developers",
+        "pr_pr: Google for Developers;",
+        "Purpose: Learn;",
+        "Campaign: ;",
+        "ct: AIG;",
+        "type:G4D SV: Comedic skits;",
+        "gds:Yes;"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "The infinite loop of estimating project timelines 🔁",
+        "description": "When a time estimate turns into a never-ending tennis match between PM and SWE. \n\nSubscribe to Google for Developers → https://goo.gle/developers \n\nSpeaker: Ethan Hsu , Anaya Mehta"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT26S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "Hoyu61aKhyXn7LhfyYy7CWCvG4M",
+    "id": "V7TMkZH1AkM",
+    "snippet": {
+      "publishedAt": "2025-08-18T23:46:05Z",
+      "channelId": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+      "title": "A Practical AI Course for Developers is Coming...",
+      "description": "I’ve been working on something special — can’t wait to share it with you soon. Watch this space.\n\n❤️ Join this channel to get access to perks:\nhttps://www.youtube.com/channel/UCWv7vMbMWH4-V0ZXdmDpPBA/join\n\n✋ Stay connected:\n- Full Courses: https://codewithmosh.com\n- Twitter: https://twitter.com/moshhamedani\n- Facebook: https://www.facebook.com/programmingwithmosh/\n- Instagram: https://www.instagram.com/codewithmosh.official/\n- LinkedIn: https://www.linkedin.com/school/codewithmosh/",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/V7TMkZH1AkM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/V7TMkZH1AkM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/V7TMkZH1AkM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/V7TMkZH1AkM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/V7TMkZH1AkM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Programming with Mosh",
+      "tags": [
+        "react tutorial",
+        "react course",
+        "ai engineer",
+        "ai",
+        "learn ai",
+        "ai course",
+        "software engineering",
+        "code with mosh",
+        "programming with mosh",
+        "mosh hamedani"
+      ],
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "A Practical AI Course for Developers is Coming...",
+        "description": "I’ve been working on something special — can’t wait to share it with you soon. Watch this space.\n\n❤️ Join this channel to get access to perks:\nhttps://www.youtube.com/channel/UCWv7vMbMWH4-V0ZXdmDpPBA/join\n\n✋ Stay connected:\n- Full Courses: https://codewithmosh.com\n- Twitter: https://twitter.com/moshhamedani\n- Facebook: https://www.facebook.com/programmingwithmosh/\n- Instagram: https://www.instagram.com/codewithmosh.official/\n- LinkedIn: https://www.linkedin.com/school/codewithmosh/"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT51S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "W6pWJt2xHKbeawLbzDU-qvfe-e8",
+    "id": "M5B-xBmznok",
+    "snippet": {
+      "publishedAt": "2025-04-16T12:30:33Z",
+      "channelId": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+      "title": "Part 2 of my Spring Boot course dropping soon!",
+      "description": "❤️ Join this channel to get access to perks:\nhttps://www.youtube.com/channel/UCWv7vMbMWH4-V0ZXdmDpPBA/join\n\n✋ Stay connected:\n- Full Courses: https://codewithmosh.com\n- Twitter: https://twitter.com/moshhamedani\n- Facebook: https://www.facebook.com/programmingwithmosh/\n- Instagram: https://www.instagram.com/codewithmosh.official/\n- LinkedIn: https://www.linkedin.com/school/codewithmosh/",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/M5B-xBmznok/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/M5B-xBmznok/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/M5B-xBmznok/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/M5B-xBmznok/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/M5B-xBmznok/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Programming with Mosh",
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Part 2 of my Spring Boot course dropping soon!",
+        "description": "❤️ Join this channel to get access to perks:\nhttps://www.youtube.com/channel/UCWv7vMbMWH4-V0ZXdmDpPBA/join\n\n✋ Stay connected:\n- Full Courses: https://codewithmosh.com\n- Twitter: https://twitter.com/moshhamedani\n- Facebook: https://www.facebook.com/programmingwithmosh/\n- Instagram: https://www.instagram.com/codewithmosh.official/\n- LinkedIn: https://www.linkedin.com/school/codewithmosh/"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT45S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "lyrCTRC9QO-4TBWgm2ORrdye4ss",
+    "id": "3ZEMvvDFEdA",
+    "snippet": {
+      "publishedAt": "2024-07-11T13:00:07Z",
+      "channelId": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+      "title": "Become a Mobile Developer in 12 Months! 🚀",
+      "description": "#mobileappdevelopment  #webdevelopment  #coding #codewithmosh",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/3ZEMvvDFEdA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/3ZEMvvDFEdA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/3ZEMvvDFEdA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/3ZEMvvDFEdA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/3ZEMvvDFEdA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Programming with Mosh",
+      "tags": [
+        "mobile development roadmap",
+        "ios developer",
+        "android developer",
+        "mobile development",
+        "coding",
+        "programming",
+        "app development roadmap",
+        "react native",
+        "flutter",
+        "code with mosh",
+        "programming with mosh",
+        "mosh hamedani"
+      ],
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Become a Mobile Developer in 12 Months! 🚀",
+        "description": "#mobileappdevelopment  #webdevelopment  #coding #codewithmosh"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT55S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "jkGYen3pa0nNnbrZW5NHmjHD9wE",
+    "id": "IQDA39A44AA",
+    "snippet": {
+      "publishedAt": "2024-06-19T13:00:24Z",
+      "channelId": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+      "title": "Become a Back-end Developer in 12 Months! 🚀",
+      "description": "#backend #webdevelopment  #coding #codewithmosh",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/IQDA39A44AA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/IQDA39A44AA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/IQDA39A44AA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/IQDA39A44AA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/IQDA39A44AA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Programming with Mosh",
+      "tags": [
+        "backend developer roadmap",
+        "how to become backend developer",
+        "web development roadmap",
+        "coding",
+        "programming",
+        "backend web development",
+        "web development",
+        "backend",
+        "learn to code",
+        "code with mosh",
+        "programming with mosh",
+        "mosh hamedani",
+        "backend developer",
+        "backend roadmap",
+        "software engineering",
+        "roadmap"
+      ],
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Become a Back-end Developer in 12 Months! 🚀",
+        "description": "#backend #webdevelopment  #coding #codewithmosh"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT59S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "Ga3Yiwe7HhHEcbGzPi4oCvOS39k",
+    "id": "CxLdTIIMXuM",
+    "snippet": {
+      "publishedAt": "2024-06-12T13:00:21Z",
+      "channelId": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+      "title": "Become a Frontend Developer in 12 Months! 🚀",
+      "description": "#frontend #webdevelopment  #coding #codewithmosh",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/CxLdTIIMXuM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/CxLdTIIMXuM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/CxLdTIIMXuM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/CxLdTIIMXuM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/CxLdTIIMXuM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Programming with Mosh",
+      "tags": [
+        "frontend developer roadmap",
+        "how to become front end developer",
+        "web development roadmap",
+        "coding",
+        "programming",
+        "software engineering",
+        "front end web development",
+        "javascript",
+        "web development",
+        "frontend",
+        "learn to code",
+        "code with mosh",
+        "programming with mosh",
+        "mosh hamedani"
+      ],
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Become a Frontend Developer in 12 Months! 🚀",
+        "description": "#frontend #webdevelopment  #coding #codewithmosh"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT52S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "H-ml6RlEp1OGjv8x7Bqcp0KizEE",
+    "id": "3WphgC4wq0I",
+    "snippet": {
+      "publishedAt": "2024-05-10T13:00:03Z",
+      "channelId": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+      "title": "Stop Wasting Time on the Wrong Languages",
+      "description": "#coding #programming",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/3WphgC4wq0I/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/3WphgC4wq0I/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/3WphgC4wq0I/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/3WphgC4wq0I/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/3WphgC4wq0I/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Programming with Mosh",
+      "tags": [
+        "web development",
+        "computer science",
+        "how to become a software engineer",
+        "coding",
+        "programming",
+        "programming with mosh",
+        "code with mosh",
+        "mosh hamedani",
+        "get a job"
+      ],
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Stop Wasting Time on the Wrong Languages",
+        "description": "#coding #programming"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT57S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "7kNZ7mXwo5oPiqigq_1ln5jJyJc",
+    "id": "7IoNR3q2Jcc",
+    "snippet": {
+      "publishedAt": "2024-05-09T13:00:07Z",
+      "channelId": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+      "title": "Is Coding Still Worth Learning in 2024?",
+      "description": "#coding #programming #codewithmosh",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/7IoNR3q2Jcc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/7IoNR3q2Jcc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/7IoNR3q2Jcc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/7IoNR3q2Jcc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/7IoNR3q2Jcc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Programming with Mosh",
+      "tags": [
+        "web development",
+        "computer science",
+        "how to become a software engineer",
+        "coding",
+        "programming",
+        "programming with mosh",
+        "code with mosh",
+        "mosh hamedani",
+        "get a job"
+      ],
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Is Coding Still Worth Learning in 2024?",
+        "description": "#coding #programming #codewithmosh"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT35S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "wp72eT9UFdvBNRKJFPdL3a7-YwU",
+    "id": "tdFsel6-bgo",
+    "snippet": {
+      "publishedAt": "2024-05-08T13:01:00Z",
+      "channelId": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+      "title": "How to Get a Programming Job with No Experience",
+      "description": "#coding #programming #codingadvice #codewithmosh",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/tdFsel6-bgo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/tdFsel6-bgo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/tdFsel6-bgo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/tdFsel6-bgo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/tdFsel6-bgo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Programming with Mosh",
+      "tags": [
+        "web development",
+        "computer science",
+        "how to become a software engineer",
+        "coding",
+        "programming",
+        "programming with mosh",
+        "code with mosh",
+        "mosh hamedani",
+        "get a job"
+      ],
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "How to Get a Programming Job with No Experience",
+        "description": "#coding #programming #codingadvice #codewithmosh"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT55S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "bpM5miO1FM247DwwQMYDQBW9UVI",
+    "id": "8jP78iP6zVM",
+    "snippet": {
+      "publishedAt": "2024-05-03T13:00:11Z",
+      "channelId": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+      "title": "Do you need a college degree to be a software engineer?",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/8jP78iP6zVM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/8jP78iP6zVM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/8jP78iP6zVM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/8jP78iP6zVM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/8jP78iP6zVM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Programming with Mosh",
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Do you need a college degree to be a software engineer?",
+        "description": ""
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT43S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "B7NKmYRrByFgQ1ChSf8HDduzSTQ",
+    "id": "Zl1hnNOAbFQ",
+    "snippet": {
+      "publishedAt": "2024-05-02T13:00:28Z",
+      "channelId": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+      "title": "50 Hour Courses Are a SCAM! Here's Why...",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Zl1hnNOAbFQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Zl1hnNOAbFQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Zl1hnNOAbFQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Zl1hnNOAbFQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/Zl1hnNOAbFQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Programming with Mosh",
+      "tags": [
+        "coding",
+        "programming",
+        "learn to code",
+        "coding resources",
+        "learning to code",
+        "coding courses",
+        "programming with mosh",
+        "code with mosh",
+        "mosh hamedani"
+      ],
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "50 Hour Courses Are a SCAM! Here's Why...",
+        "description": ""
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT32S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "OLd61gGDNDIX8rNMVxz-tQngqqQ",
+    "id": "cVMh0SIjp9k",
+    "snippet": {
+      "publishedAt": "2024-04-26T13:00:36Z",
+      "channelId": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+      "title": "YouTube Tutorials Won't Get You Hired",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/cVMh0SIjp9k/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/cVMh0SIjp9k/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/cVMh0SIjp9k/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/cVMh0SIjp9k/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/cVMh0SIjp9k/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Programming with Mosh",
+      "tags": [
+        "how to learn to code",
+        "how to become a software engineer",
+        "software engineer",
+        "programming",
+        "computer science",
+        "big tech",
+        "day in the life of software engineer",
+        "leetcode",
+        "learn to code",
+        "learn to code for beginners",
+        "coding advice",
+        "coding mistakes",
+        "coding",
+        "coding for beginners",
+        "coding resources",
+        "code with mosh",
+        "programming with mosh",
+        "mosh hamedani",
+        "software engineering",
+        "web development"
+      ],
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "YouTube Tutorials Won't Get You Hired",
+        "description": ""
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT59S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "Nn0zRf_eT_qaAPQxpLCeVH08Pd0",
+    "id": "iw0znRuaYL8",
+    "snippet": {
+      "publishedAt": "2024-04-25T13:00:42Z",
+      "channelId": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+      "title": "The FASTEST Way to Learn Coding & Get a Job",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/iw0znRuaYL8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/iw0znRuaYL8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/iw0znRuaYL8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/iw0znRuaYL8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/iw0znRuaYL8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Programming with Mosh",
+      "tags": [
+        "how to learn to code",
+        "how to become a software engineer",
+        "software engineer",
+        "programming",
+        "computer science",
+        "big tech",
+        "day in the life of software engineer",
+        "leetcode",
+        "learn to code",
+        "learn to code for beginners",
+        "coding advice",
+        "coding mistakes",
+        "coding",
+        "coding for beginners",
+        "coding resources",
+        "code with mosh",
+        "programming with mosh",
+        "mosh hamedani",
+        "software engineering",
+        "web development"
+      ],
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "The FASTEST Way to Learn Coding & Get a Job",
+        "description": ""
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT31S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "usIMC4z5U3Lw8-JMPOptLuRxUyQ",
+    "id": "KkmSR7c9qLc",
+    "snippet": {
+      "publishedAt": "2024-04-23T13:00:17Z",
+      "channelId": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+      "title": "What is Automated Testing",
+      "description": "#coding #programming #reactjs",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/KkmSR7c9qLc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/KkmSR7c9qLc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/KkmSR7c9qLc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/KkmSR7c9qLc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/KkmSR7c9qLc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Programming with Mosh",
+      "tags": [
+        "react testing",
+        "react testing library",
+        "react testing tutorial",
+        "react testing tutorial for beginners",
+        "react testing with jest",
+        "react testing course",
+        "unit testing",
+        "code with mosh",
+        "programming with mosh",
+        "mosh hamedani",
+        "web development",
+        "vitest",
+        "jest",
+        "reactjs",
+        "react",
+        "automated testing"
+      ],
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "What is Automated Testing",
+        "description": "#coding #programming #reactjs"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT42S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "R9XzKK3AfbSJeKZbgouMn3vUbBg",
+    "id": "FW49JfEXI3E",
+    "snippet": {
+      "publishedAt": "2024-04-16T13:00:23Z",
+      "channelId": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+      "title": "Never Leave VSCode Again!",
+      "description": "#vscode #coding #programming",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/FW49JfEXI3E/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/FW49JfEXI3E/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/FW49JfEXI3E/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/FW49JfEXI3E/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/FW49JfEXI3E/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Programming with Mosh",
+      "tags": [
+        "vscode",
+        "tutorial vscode",
+        "vs code",
+        "programming",
+        "vscode web developer",
+        "software developer tools",
+        "learn vscode in 6 minutes",
+        "coding",
+        "programming with mosh",
+        "mosh hamedani",
+        "code with mosh"
+      ],
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Never Leave VSCode Again!",
+        "description": "#vscode #coding #programming"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT34S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "0pIwb3M9eCd_aE5ps6hDfc_T6g4",
+    "id": "Vrtx9G9lEuM",
+    "snippet": {
+      "publishedAt": "2024-04-13T14:00:19Z",
+      "channelId": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+      "title": "Python in 1 Minute",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Vrtx9G9lEuM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Vrtx9G9lEuM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Vrtx9G9lEuM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Vrtx9G9lEuM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/Vrtx9G9lEuM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Programming with Mosh",
+      "tags": [
+        "python for beginners",
+        "python",
+        "python programming",
+        "programming",
+        "python for everybody",
+        "python tutorial",
+        "programming with mosh",
+        "computer programming",
+        "python tips",
+        "python from scratch",
+        "python coding",
+        "what is python",
+        "python language",
+        "code with mosh",
+        "mosh hamedani"
+      ],
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Python in 1 Minute",
+        "description": ""
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT1M",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "p8SuqWrNeYvKXzA-4UetTMHLBrY",
+    "id": "nzzPMc1X_gM",
+    "snippet": {
+      "publishedAt": "2024-04-10T13:15:03Z",
+      "channelId": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+      "title": "Mind-Blowing AI:  This Tool Clones Voices Perfectly!",
+      "description": "#coding #chatgpt #ai",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/nzzPMc1X_gM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/nzzPMc1X_gM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/nzzPMc1X_gM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/nzzPMc1X_gM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/nzzPMc1X_gM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Programming with Mosh",
+      "tags": [
+        "voice engine",
+        "openai",
+        "open ai",
+        "chatgpt",
+        "chat gpt",
+        "code with mosh",
+        "programming with mosh",
+        "mosh hamedani",
+        "artificial intelligence",
+        "coding",
+        "programming"
+      ],
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Mind-Blowing AI:  This Tool Clones Voices Perfectly!",
+        "description": "#coding #chatgpt #ai"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT25S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "gHlTMfO6QznpW6sAih33ygMCeNc",
+    "id": "E9BXvDElDlw",
+    "snippet": {
+      "publishedAt": "2024-03-27T14:00:49Z",
+      "channelId": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+      "title": "VSCode Trick: Stop Wasting Time Finding Files",
+      "description": "#vscode #coding #programming",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/E9BXvDElDlw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/E9BXvDElDlw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/E9BXvDElDlw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/E9BXvDElDlw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/E9BXvDElDlw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Programming with Mosh",
+      "tags": [
+        "vscode",
+        "tutorial vscode",
+        "vs code",
+        "programming",
+        "vscode web developer",
+        "software developer tools",
+        "learn vscode in 6 minutes",
+        "coding",
+        "programming with mosh",
+        "mosh hamedani",
+        "code with mosh"
+      ],
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "VSCode Trick: Stop Wasting Time Finding Files",
+        "description": "#vscode #coding #programming"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT55S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "Ruvmjbg3nFEM16nox2WOIQw96b4",
+    "id": "-mA2HV1f4Go",
+    "snippet": {
+      "publishedAt": "2024-03-26T14:00:32Z",
+      "channelId": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+      "title": "Endless YouTube Tutorials Are Wasting Your Time",
+      "description": "#coding #programming",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/-mA2HV1f4Go/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/-mA2HV1f4Go/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/-mA2HV1f4Go/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/-mA2HV1f4Go/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/-mA2HV1f4Go/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Programming with Mosh",
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Endless YouTube Tutorials Are Wasting Your Time",
+        "description": "#coding #programming"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT59S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "g_sLnL1m5y7zdNL4haWnKjODgfE",
+    "id": "f3UIwEZx47w",
+    "snippet": {
+      "publishedAt": "2025-11-08T13:32:32Z",
+      "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "title": "Z-index not working right? Here's how to fix your layering nightmares",
+      "description": "Z-index not working? Try isolation: isolate on the parent element. This creates a new stacking context and fixes those layering nightmares so you can stack with confidence.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/f3UIwEZx47w/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/f3UIwEZx47w/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/f3UIwEZx47w/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/f3UIwEZx47w/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/f3UIwEZx47w/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "freeCodeCamp.org",
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Z-index not working right? Here's how to fix your layering nightmares",
+        "description": "Z-index not working? Try isolation: isolate on the parent element. This creates a new stacking context and fixes those layering nightmares so you can stack with confidence."
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT10S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "9-2KRr4TjgRsd0XWjFpVRyuUsQQ",
+    "id": "ealPKU_orJg",
+    "snippet": {
+      "publishedAt": "2025-11-07T13:18:23Z",
+      "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "title": "How to control underline spacing",
+      "description": "Control underline spacing perfectly with this quick piece of code. No more cramped-looking links.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/ealPKU_orJg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ealPKU_orJg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ealPKU_orJg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ealPKU_orJg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/ealPKU_orJg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "freeCodeCamp.org",
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "How to control underline spacing",
+        "description": "Control underline spacing perfectly with this quick piece of code. No more cramped-looking links."
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT10S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "qZ-TR72wgbGyuZIi8hmgP79DJRs",
+    "id": "vK30T6wKauA",
+    "snippet": {
+      "publishedAt": "2025-11-06T12:52:32Z",
+      "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "title": "How to focus your efforts in the right directions when job hunting",
+      "description": "When you're job hunting, it's easy to feel exhausted and low energy. But if you can figure out how to tweak a couple things, you'll be able to stand out and move forward. Leon and Danny discuss this with Quincy on the freeCodeCamp podcast.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/vK30T6wKauA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/vK30T6wKauA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/vK30T6wKauA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/vK30T6wKauA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/vK30T6wKauA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "freeCodeCamp.org",
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "How to focus your efforts in the right directions when job hunting",
+        "description": "When you're job hunting, it's easy to feel exhausted and low energy. But if you can figure out how to tweak a couple things, you'll be able to stand out and move forward. Leon and Danny discuss this with Quincy on the freeCodeCamp podcast."
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT56S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "CxYmaas3fct5y8vmzJi5pD1McPw",
+    "id": "FqJuiLbgqNA",
+    "snippet": {
+      "publishedAt": "2025-11-05T13:29:30Z",
+      "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "title": "Have you ever wondered why we call it a bug?",
+      "description": "Why do we call small problems in our code \"bugs\"? Ania tells you the story here.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/FqJuiLbgqNA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/FqJuiLbgqNA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/FqJuiLbgqNA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/FqJuiLbgqNA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/FqJuiLbgqNA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "freeCodeCamp.org",
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Have you ever wondered why we call it a bug?",
+        "description": "Why do we call small problems in our code \"bugs\"? Ania tells you the story here."
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT14S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "Gt7x6-TXpG3I4UCuoHEKQ2Q2QJk",
+    "id": "7lEWtEG3vd0",
+    "snippet": {
+      "publishedAt": "2025-11-04T13:05:31Z",
+      "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "title": "Why you should support your favorite open source projects",
+      "description": "Open source projects often struggle to get sponsorships and support from the community. Evan You, creator of Vue and Vite, explains how he's trying to address this problem on the freeCodeCamp podcast.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/7lEWtEG3vd0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/7lEWtEG3vd0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/7lEWtEG3vd0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/7lEWtEG3vd0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/7lEWtEG3vd0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "freeCodeCamp.org",
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Why you should support your favorite open source projects",
+        "description": "Open source projects often struggle to get sponsorships and support from the community. Evan You, creator of Vue and Vite, explains how he's trying to address this problem on the freeCodeCamp podcast."
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT55S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "XbeLkW3zqsBLC_7v60lyDPX8hFU",
+    "id": "siMP-22x5Ck",
+    "snippet": {
+      "publishedAt": "2025-11-03T13:17:25Z",
+      "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "title": "How to brand your form controls",
+      "description": "Did you know you can customize your form controls - like adding your brand's color? Ania shows how to do it here.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/siMP-22x5Ck/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/siMP-22x5Ck/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/siMP-22x5Ck/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/siMP-22x5Ck/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/siMP-22x5Ck/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "freeCodeCamp.org",
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "How to brand your form controls",
+        "description": "Did you know you can customize your form controls - like adding your brand's color? Ania shows how to do it here."
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT11S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "VmmE3jGTAsL57myOeVWjICuW1zk",
+    "id": "et7u_tnlS0Q",
+    "snippet": {
+      "publishedAt": "2025-11-02T13:43:24Z",
+      "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "title": "The inventor of HTML gave away the web for free...",
+      "description": "Did you know that Tim Berners-Lee, the inventor of the world-wide web, HTML, the URL system, and HTTP, gave all this away for free? Free things can be pretty cool, can't they?",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/et7u_tnlS0Q/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/et7u_tnlS0Q/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/et7u_tnlS0Q/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/et7u_tnlS0Q/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/et7u_tnlS0Q/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "freeCodeCamp.org",
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "The inventor of HTML gave away the web for free...",
+        "description": "Did you know that Tim Berners-Lee, the inventor of the world-wide web, HTML, the URL system, and HTTP, gave all this away for free? Free things can be pretty cool, can't they?"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT15S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "RqTc_5D5oV1j4ftnMMBnmJDAJa0",
+    "id": "nHqeMW0iLBU",
+    "snippet": {
+      "publishedAt": "2025-11-01T12:32:25Z",
+      "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "title": "What was it like growing up in Dubai?",
+      "description": "Ania Kubów was born and raised in Dubai - before many people really even knew where it was. Before it became such a hot spot. She talks about what that was like and how it's changed on the freeCodeCamp podcast.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/nHqeMW0iLBU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/nHqeMW0iLBU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/nHqeMW0iLBU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/nHqeMW0iLBU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/nHqeMW0iLBU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "freeCodeCamp.org",
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "What was it like growing up in Dubai?",
+        "description": "Ania Kubów was born and raised in Dubai - before many people really even knew where it was. Before it became such a hot spot. She talks about what that was like and how it's changed on the freeCodeCamp podcast."
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT58S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "SXBHWXR-gkBREibBO0T0e54kq0I",
+    "id": "lYhi86Zaetg",
+    "snippet": {
+      "publishedAt": "2025-10-31T23:32:22Z",
+      "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "title": "The world's first website is still live...so retro.",
+      "description": "Did you know that the world's first website is still live? Ania shows you what it looks like. Kinda cool, totally retro!",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/lYhi86Zaetg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/lYhi86Zaetg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/lYhi86Zaetg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/lYhi86Zaetg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/lYhi86Zaetg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "freeCodeCamp.org",
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "The world's first website is still live...so retro.",
+        "description": "Did you know that the world's first website is still live? Ania shows you what it looks like. Kinda cool, totally retro!"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT11S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "X8GgWh0bdItnk376vGgxa-48HzQ",
+    "id": "fQ51cM44o7I",
+    "snippet": {
+      "publishedAt": "2025-10-31T12:18:20Z",
+      "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "title": "What does a double !! do in code?",
+      "description": "🎃 🎃 Double Trouble! What does a double !! actually do in your code? Ania explains with an example here.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/fQ51cM44o7I/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/fQ51cM44o7I/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/fQ51cM44o7I/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/fQ51cM44o7I/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/fQ51cM44o7I/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "freeCodeCamp.org",
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "What does a double !! do in code?",
+        "description": "🎃 🎃 Double Trouble! What does a double !! actually do in your code? Ania explains with an example here."
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT18S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "Up7NZBCmO35-n6sR7Oe2NV4V38M",
+    "id": "vc5T3VmCar0",
+    "snippet": {
+      "publishedAt": "2025-10-30T23:18:27Z",
+      "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "title": "Playing chess is a lot like software development",
+      "description": "Playing chess is a lot like software development. Both require a lot of creativity, and there are many ways to do the same thing in chess and in coding. Ihechikara talks about what playing chess has taught him about programming on the freeCodeCamp podcast.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/vc5T3VmCar0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/vc5T3VmCar0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/vc5T3VmCar0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/vc5T3VmCar0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/vc5T3VmCar0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "freeCodeCamp.org",
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Playing chess is a lot like software development",
+        "description": "Playing chess is a lot like software development. Both require a lot of creativity, and there are many ways to do the same thing in chess and in coding. Ihechikara talks about what playing chess has taught him about programming on the freeCodeCamp podcast."
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT38S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "cOQHRylH9lGTmM5ZhkGcqCpEODs",
+    "id": "svOjqXjMvGI",
+    "snippet": {
+      "publishedAt": "2025-10-30T11:52:27Z",
+      "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "title": "🧛Hoisting Horror! Everyone says variables are hoisted. So why does this break?",
+      "description": "🧛Hoisting Horror! Everyone says variables are hoisted. So why does this break? Ania explains here.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/svOjqXjMvGI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/svOjqXjMvGI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/svOjqXjMvGI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/svOjqXjMvGI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/svOjqXjMvGI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "freeCodeCamp.org",
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "🧛Hoisting Horror! Everyone says variables are hoisted. So why does this break?",
+        "description": "🧛Hoisting Horror! Everyone says variables are hoisted. So why does this break? Ania explains here."
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT15S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "zV6y-ODUdE3Mm8LFVdCrCsln0As",
+    "id": "ykvHQwgCjro",
+    "snippet": {
+      "publishedAt": "2025-10-29T22:52:24Z",
+      "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "title": "Perfect image cropping every time...",
+      "description": "If you're struggling with cropping images, try this quick and easy technique that Ania shows you here.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/ykvHQwgCjro/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ykvHQwgCjro/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ykvHQwgCjro/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ykvHQwgCjro/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/ykvHQwgCjro/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "freeCodeCamp.org",
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Perfect image cropping every time...",
+        "description": "If you're struggling with cropping images, try this quick and easy technique that Ania shows you here."
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT9S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "ufYD1sYJicOqIiTs_DoRhfy59y8",
+    "id": "r6jVezXnBMQ",
+    "snippet": {
+      "publishedAt": "2025-10-27T23:05:26Z",
+      "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "title": "How to package yourself as a problem solver companies want to hire",
+      "description": "Companies want devs who can hit the ground running. Leon discusses how to market yourself as a problem-solver with proven abilities when you're job hunting.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/r6jVezXnBMQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/r6jVezXnBMQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/r6jVezXnBMQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/r6jVezXnBMQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/r6jVezXnBMQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "freeCodeCamp.org",
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "How to package yourself as a problem solver companies want to hire",
+        "description": "Companies want devs who can hit the ground running. Leon discusses how to market yourself as a problem-solver with proven abilities when you're job hunting."
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT58S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "9RS-H3VbIjQp3bJExWqB9BHK52Y",
+    "id": "utxq6LY1ero",
+    "snippet": {
+      "publishedAt": "2025-10-26T23:17:23Z",
+      "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "title": "Stop using padding hacks to make squares",
+      "description": "Stop using padding hacks to make squares - Ania shows you a better way to do it here.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/utxq6LY1ero/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/utxq6LY1ero/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/utxq6LY1ero/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/utxq6LY1ero/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/utxq6LY1ero/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "freeCodeCamp.org",
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Stop using padding hacks to make squares",
+        "description": "Stop using padding hacks to make squares - Ania shows you a better way to do it here."
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT10S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "a6aAXGuXFklYJqNqIiAELUer7Xw",
+    "id": "FHBBaSUQk1Y",
+    "snippet": {
+      "publishedAt": "2025-10-25T23:43:32Z",
+      "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "title": "How contributing to Open Source can lead to tech jobs",
+      "description": "Ihechikara discusses how contributing to Open Source projects has landed him jobs throughout his career.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/FHBBaSUQk1Y/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/FHBBaSUQk1Y/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/FHBBaSUQk1Y/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/FHBBaSUQk1Y/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/FHBBaSUQk1Y/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "freeCodeCamp.org",
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "How contributing to Open Source can lead to tech jobs",
+        "description": "Ihechikara discusses how contributing to Open Source projects has landed him jobs throughout his career."
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT55S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "fYUDj5BX9U6hGwAodSsYGSKpPnE",
+    "id": "baYjd4pFjlw",
+    "snippet": {
+      "publishedAt": "2025-10-24T23:32:22Z",
+      "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "title": "Learn how to make any div resizable",
+      "description": "If you want to make your divs resizable, Ania shows you how here. This is great for dashboards and layouts.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/baYjd4pFjlw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/baYjd4pFjlw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/baYjd4pFjlw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/baYjd4pFjlw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/baYjd4pFjlw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "freeCodeCamp.org",
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Learn how to make any div resizable",
+        "description": "If you want to make your divs resizable, Ania shows you how here. This is great for dashboards and layouts."
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT10S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "KyNAhJ9yjt3Jk4_XKunnfBMtgZs",
+    "id": "xTg_pBgr_vA",
+    "snippet": {
+      "publishedAt": "2025-10-22T22:52:29Z",
+      "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "title": "Danny Thompson's \"Why hire me\" experiment",
+      "description": "At a meetup, Danny Thompson asked everyone there to answer the question \"Why should I hire you\". And what he discovered was something very interesting (hint: it's about what no one said).",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/xTg_pBgr_vA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/xTg_pBgr_vA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/xTg_pBgr_vA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/xTg_pBgr_vA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/xTg_pBgr_vA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "freeCodeCamp.org",
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Danny Thompson's \"Why hire me\" experiment",
+        "description": "At a meetup, Danny Thompson asked everyone there to answer the question \"Why should I hire you\". And what he discovered was something very interesting (hint: it's about what no one said)."
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT45S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "rV7LUU8Ol5gXtVoh2bmRSq1j46U",
+    "id": "83Kgx-Xe_DI",
+    "snippet": {
+      "publishedAt": "2025-10-21T23:29:23Z",
+      "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "title": "Make highlighted text match your brand or color scheme",
+      "description": "Want to add that little something extra and make highlighted text match your brand or color scheme? Ania shows you how to do it here.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/83Kgx-Xe_DI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/83Kgx-Xe_DI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/83Kgx-Xe_DI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/83Kgx-Xe_DI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/83Kgx-Xe_DI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "freeCodeCamp.org",
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Make highlighted text match your brand or color scheme",
+        "description": "Want to add that little something extra and make highlighted text match your brand or color scheme? Ania shows you how to do it here."
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT12S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "QstfaOb6ev0Obc5aki0ZVrGXEJw",
+    "id": "Hfo5uvbmDaY",
+    "snippet": {
+      "publishedAt": "2025-10-20T23:05:25Z",
+      "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "title": "Flexbox spacing made easy",
+      "description": "Have you ever struggled with spacing in Flexbox? Ania makes it easy here.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Hfo5uvbmDaY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Hfo5uvbmDaY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Hfo5uvbmDaY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Hfo5uvbmDaY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/Hfo5uvbmDaY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "freeCodeCamp.org",
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Flexbox spacing made easy",
+        "description": "Have you ever struggled with spacing in Flexbox? Ania makes it easy here."
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT10S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "dbcNcF0LGwQgGh4FwBOexZkZqaM",
+    "id": "BRksIg2jkbo",
+    "snippet": {
+      "publishedAt": "2025-10-19T23:17:28Z",
+      "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "title": "How Ania Kubów uses time blocking to make the most of her day",
+      "description": "Have you ever wondered how prolific developers and creators like Ania Kubów get stuff done? She shares her strategies (think time blocking and making the most out of the parts of the day when her brain's most active) on the freeCodeCamp podcast.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/BRksIg2jkbo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/BRksIg2jkbo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/BRksIg2jkbo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/BRksIg2jkbo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/BRksIg2jkbo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "freeCodeCamp.org",
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "How Ania Kubów uses time blocking to make the most of her day",
+        "description": "Have you ever wondered how prolific developers and creators like Ania Kubów get stuff done? She shares her strategies (think time blocking and making the most out of the parts of the day when her brain's most active) on the freeCodeCamp podcast."
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT1M",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "Zj-6a3LSflR6M9dSUrOnXBOUIa4",
+    "id": "-KRTTe__qy8",
+    "snippet": {
+      "publishedAt": "2025-10-18T23:43:24Z",
+      "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "title": "How to style your input cursor in CSS",
+      "description": "Did you know you can style your input cursors? Use caret-color: red; (or blue, or any other color) to add a little flare to your cursor. Ania shows you how to do it here.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/-KRTTe__qy8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/-KRTTe__qy8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/-KRTTe__qy8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/-KRTTe__qy8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/-KRTTe__qy8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "freeCodeCamp.org",
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "How to style your input cursor in CSS",
+        "description": "Did you know you can style your input cursors? Use caret-color: red; (or blue, or any other color) to add a little flare to your cursor. Ania shows you how to do it here."
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT12S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "4ZbSFzY99RxvAEOZiMGZH80g2Xk",
+    "id": "_dCn4WrWnBw",
+    "snippet": {
+      "publishedAt": "2025-10-16T23:18:24Z",
+      "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "title": "How to use Python's .isprintable() method",
+      "description": "Need to check if all characters in a Python string are printable, you can use the .isprintable() method. Makes sense, right? Estefania shows you how it works here.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/_dCn4WrWnBw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/_dCn4WrWnBw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/_dCn4WrWnBw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/_dCn4WrWnBw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/_dCn4WrWnBw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "freeCodeCamp.org",
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "How to use Python's .isprintable() method",
+        "description": "Need to check if all characters in a Python string are printable, you can use the .isprintable() method. Makes sense, right? Estefania shows you how it works here."
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT25S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "AFF9lXP2iBxx5U88I68Gt0AJd7U",
+    "id": "EzyJpHz2awM",
+    "snippet": {
+      "publishedAt": "2025-10-14T23:29:14Z",
+      "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "title": "How to make heart shapes in HTML",
+      "description": "Want to make heart shapes in your HTML? Ania shows you how here.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/EzyJpHz2awM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/EzyJpHz2awM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/EzyJpHz2awM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/EzyJpHz2awM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/EzyJpHz2awM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "freeCodeCamp.org",
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "How to make heart shapes in HTML",
+        "description": "Want to make heart shapes in your HTML? Ania shows you how here."
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT11S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  }
+]

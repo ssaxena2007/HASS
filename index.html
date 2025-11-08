@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Shorts Clone</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .shorts-container {
+            height: 100vh;
+            width: 100%;
+            overflow-y: scroll;
+            scroll-snap-type: y mandatory;
+            -ms-overflow-style: none;  /* Hide scrollbar IE and Edge */
+            scrollbar-width: none;  /* Hide scrollbar Firefox */
+        }
+
+        /* Hide scrollbar for Chrome/Safari/Opera */
+        .shorts-container::-webkit-scrollbar {
+            display: none;
+        }
+
+        .short-item {
+            height: 100vh;
+            width: 100%;
+            position: relative;
+            scroll-snap-align: start;
+        }
+
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .video-info {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+            z-index: 1;
+        }
+
+        .creator-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .creator-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .actions {
+            position: absolute;
+            right: 20px;
+            bottom: 100px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .action-button {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .action-count {
+            font-size: 14px;
+        }
+
+        .scroll-indicator {
+            position: fixed;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 10;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .indicator-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.5);
+            transition: all 0.3s ease;
+        }
+
+        .indicator-dot.active {
+            background: white;
+            transform: scale(1.5);
+        }
+
+        /* ensure wrapper stacking so thumbnail sits on top until iframe loads */
+        .video-wrapper { position: relative; width:100%; height:100%; }
+        iframe.short-iframe {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 1;
+            background: #000;
+            border: 0;
+        }
+        .video-wrapper img.thumb {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 2; /* above iframe until iframe finishes loading */
+            transition: opacity 220ms ease;
+            opacity: 1;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="shorts-container" id="shortsContainer">
+        <!-- Shorts will be inserted here by JavaScript -->
+    </div>
+    <div class="scroll-indicator" id="scrollIndicator"></div>
+
+    <script>
+        // --- summary: load full DB, render a sliding window, prepend older items when user scrolls up at top ---
+
+        // local state
+        let allData = [];          // full JSON from testdata
+        let displayed = [];        // currently rendered items (array of objects)
+        let nextIndex = 0;         // next index in allData to take from (items not yet displayed)
+        const INITIAL_COUNT = 6;   // number of items to render initially
+        let currentVideoIndex = 0;
+        let isScrolling = false;
+        let touchStartY = 0;
+
+        // fetch the JSON database and initialize
+        fetch('./testdata/shorts_db.json')
+            .then(r => r.json())
+            .then(json => {
+                allData = json;
+                // start with the first INITIAL_COUNT items (or all if fewer)
+                displayed = allData.slice(0, INITIAL_COUNT);
+                nextIndex = displayed.length;
+                render();
+            })
+            .catch(err => {
+                console.error('Failed to load shorts_db.json', err);
+                // fallback: keep existing small dataset if any (no-op)
+            });
+
+        // create item markup (unchanged structure but now accepts full item object)
+        function createShortItem(short) {
+            const id = short.id;
+            const title = short.snippet?.title || '';
+            const description = short.snippet?.description || '';
+            const channel = short.snippet?.channelTitle || '';
+            const thumb = short.snippet?.thumbnails?.maxres?.url || '';
+
+            // Two data-src values:
+            // - data-src-play sets autoplay=1 (used for the currently-visible short)
+            // - data-src-preload loads the iframe without autoplay (used to preload next short)
+            const playUrl = `https://www.youtube.com/embed/${id}?rel=0&controls=0&modestbranding=1&autoplay=1&mute=1&playsinline=1&loop=1&playlist=${id}`;
+            const preloadUrl = `https://www.youtube.com/embed/${id}?rel=0&controls=0&modestbranding=1&playsinline=1&loop=1&playlist=${id}`;
+
+            return `
+                <div class="short-item">
+                    <div class="video-wrapper">
+                        <iframe
+                            class="short-iframe"
+                            data-video-id="${id}"
+                            data-src-play="${playUrl}"
+                            data-src-preload="${preloadUrl}"
+                            allow="autoplay; encrypted-media"
+                        ></iframe>
+
+                        <!-- thumbnail sits above iframe until iframe loads -->
+                        <img class="thumb" src="${thumb}" alt="${title}">
+                    </div>
+
+                    <div class="video-info">
+                        <div class="creator-info">
+                            <!---img src="https://via.placeholder.com/40" class="creator-avatar" alt="${channel}"--->
+                            <div>
+                                <h3>${channel}</h3>
+                                <h2>${title}</h2>
+                                <p>${description.split('\\n')[0] || ''}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="actions">
+                        <button class="action-button">❤️<span class="action-count">0</span></button>
+                        <button class="action-button">💬<span class="action-count">0</span></button>
+                        <button class="action-button">🔗</button>
+                    </div>
+                </div>
+            `;
+        }
+
+        // render displayed[] into the DOM, reinit indicators and intersection observers
+        function render(preserveScrollDelta = 0) {
+            const oldScrollHeight = container.scrollHeight;
+            container.innerHTML = displayed.map(item => createShortItem(item)).join('');
+            // restore scroll position to preserve view when we prepend
+            if (preserveScrollDelta) {
+                // Keep user's viewport stable after prepending: scrollTop = newHeight - oldHeight + previousScrollTop (previousScrollTop was 0 when triggered at top)
+                container.scrollTop = container.scrollHeight - oldScrollHeight + preserveScrollDelta;
+            }
+            // rebuild indicators
+            scrollIndicator.innerHTML = '';
+            displayed.forEach((_, index) => {
+                const dot = document.createElement('div');
+                dot.className = `indicator-dot ${index === currentVideoIndex ? 'active' : ''}`;
+                dot.dataset.index = index;
+                dot.addEventListener('click', () => scrollToVideo(index));
+                scrollIndicator.appendChild(dot);
+            });
+
+            // re-init observers for lazy iframe load
+            initObserversAndControls();
+        }
+
+        // init IntersectionObserver & re-hook controls that depend on DOM nodes
+        function initObserversAndControls() {
+            // disconnect previous observer if present
+            if (window._shortsIO) {
+                window._shortsIO.disconnect();
+            }
+
+            const iframes = container.querySelectorAll('iframe.short-iframe');
+            let preloadedIndex = -1; // track which index is currently preloaded (one ahead)
+
+            const io = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    const iframe = entry.target;
+                    const wrapper = iframe.closest('.video-wrapper');
+                    const thumb = wrapper?.querySelector('img.thumb');
+                    const index = Array.from(iframes).indexOf(iframe);
+
+                    if (entry.isIntersecting && entry.intersectionRatio > 0.6) {
+                        // activate this short: set play src
+                        const playSrc = iframe.dataset.srcPlay;
+                        if (playSrc && iframe.src !== playSrc) {
+                            iframe.src = playSrc;
+                            const onLoad = () => {
+                                if (thumb) thumb.style.opacity = '0';
+                                iframe.removeEventListener('load', onLoad);
+                            };
+                            iframe.addEventListener('load', onLoad);
+                        }
+
+                        // preload the next short (one ahead) using preload src (no autoplay)
+                        const nextIndex = index + 1;
+                        if (nextIndex < iframes.length) {
+                            const nextIframe = iframes[nextIndex];
+                            const preloadSrc = nextIframe?.dataset?.srcPreload;
+                            if (preloadSrc && nextIframe.src !== preloadSrc) {
+                                nextIframe.src = preloadSrc;
+                                // ensure its thumbnail fades only when its iframe loads later
+                                nextIframe.addEventListener('load', () => {
+                                    const nextThumb = nextIframe.closest('.video-wrapper')?.querySelector('img.thumb');
+                                    if (nextThumb) nextThumb.style.opacity = '0';
+                                }, { once: true });
+                                preloadedIndex = nextIndex;
+                            }
+                        } else {
+                            preloadedIndex = -1;
+                        }
+
+                        currentVideoIndex = index;
+                        const dots = scrollIndicator.querySelectorAll('.indicator-dot');
+                        dots.forEach((dot, i) => dot.classList.toggle('active', i === index));
+                    } else {
+                        // If this iframe is neither the active one nor the preloaded one, unload it
+                        const isPreloaded = (index === preloadedIndex);
+                        const isActive = (index === currentVideoIndex);
+                        if (!isActive && !isPreloaded) {
+                            if (iframe.src) iframe.src = '';
+                            if (thumb) thumb.style.opacity = '1';
+                        }
+                        // if this was the preloaded iframe but it's no longer the preloadedIndex, clear it
+                        if (isPreloaded && index !== preloadedIndex) {
+                            if (iframe.src) iframe.src = '';
+                            if (thumb) thumb.style.opacity = '1';
+                        }
+                    }
+                });
+            }, { threshold: [0.0, 0.6, 1.0] });
+
+            iframes.forEach(f => io.observe(f));
+            window._shortsIO = io; // keep reference for later disconnect
+        }
+
+        // scroll to a particular displayed index
+        function scrollToVideo(index) {
+            currentVideoIndex = index;
+            const items = container.querySelectorAll('.short-item');
+            if (!items[index]) return;
+            items[index].scrollIntoView({ behavior: 'smooth' });
+
+            const dots = scrollIndicator.querySelectorAll('.indicator-dot');
+            dots.forEach((dot, i) => dot.classList.toggle('active', i === index));
+        }
+
+        // PREPEND one older item (if available) to the top of displayed[].
+        // preserveScrollDelta should be the previous container.scrollTop (usually 0 when triggered at top)
+        function prependOlder() {
+            if (nextIndex >= allData.length) return false; // no older left
+            const previousScrollTop = container.scrollTop;
+            const oldScrollHeight = container.scrollHeight;
+
+            // take next item from allData and put it at the start
+            displayed.unshift(allData[nextIndex]);
+            nextIndex += 1;
+
+            // re-render and preserve scroll so viewport doesn't jump
+            render(previousScrollTop || (container.scrollHeight - oldScrollHeight));
+            return true;
+        }
+
+        // EVENT HANDLERS: detect upward attempts at top to prepend older items
+        const container = document.getElementById('shortsContainer');
+        const scrollIndicator = document.getElementById('scrollIndicator');
+
+        // touch handlers: detect swipe down at top (user pulls content down)
+        container.addEventListener('touchstart', (e) => {
+            touchStartY = e.touches[0].clientY;
+        });
+
+        container.addEventListener('touchmove', (e) => {
+            if (isScrolling) return;
+            const touchEndY = e.touches[0].clientY;
+            const diff = touchStartY - touchEndY;
+
+            // diff < 0 : user swiped down (pulling content down) -> attempt to reveal older (prepend)
+            if (diff < -60 && container.scrollTop === 0) {
+                isScrolling = true;
+                if (prependOlder()) {
+                    setTimeout(() => { isScrolling = false; }, 350);
+                } else {
+                    isScrolling = false;
+                }
+            }
+        });
+
+        container.addEventListener('touchend', () => { isScrolling = false; });
+
+        // wheel handler: if wheel up at top (deltaY < 0 and scrollTop === 0) -> prepend
+        container.addEventListener('wheel', (e) => {
+            // normal wheel navigation between items still handled by existing logic:
+            if (Math.abs(e.deltaY) > 0 && Math.abs(e.deltaX) < 10) {
+                if (isScrolling) return;
+                // if user is at the top and is scrolling up (deltaY < 0) try to prepend older
+                if (e.deltaY < 0 && container.scrollTop === 0) {
+                    if (prependOlder()) {
+                        isScrolling = true;
+                        setTimeout(() => { isScrolling = false; }, 350);
+                        e.preventDefault();
+                        return;
+                    }
+                }
+                // otherwise, allow the previous "snap" behavior: move between items
+                isScrolling = true;
+                if (e.deltaY > 0 && currentVideoIndex < displayed.length - 1) {
+                    scrollToVideo(currentVideoIndex + 1);
+                } else if (e.deltaY < 0 && currentVideoIndex > 0) {
+                    scrollToVideo(currentVideoIndex - 1);
+                }
+                setTimeout(() => { isScrolling = false; }, 500);
+            }
+        }, { passive: false });
+
+        // keyboard nav (unchanged)
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowUp' && currentVideoIndex > 0) scrollToVideo(currentVideoIndex - 1);
+            else if (e.key === 'ArrowDown' && currentVideoIndex < displayed.length - 1) scrollToVideo(currentVideoIndex + 1);
+        });
+
+        // expose a small helper to manually load more older items (optional)
+        window.loadMoreOlder = function(count = 1) {
+            let loaded = 0;
+            while (loaded < count && nextIndex < allData.length) {
+                displayed.unshift(allData[nextIndex]);
+                nextIndex += 1;
+                loaded += 1;
+            }
+            render();
+        };
+
+        // initial empty render until data loads
+        // (render called after fetch completes)
+    </script>
+</body>
+</html>
