@@ -10,7 +10,7 @@ YOUR_YOUTUBE_API_KEY = "AIzaSyDlDocvLsGvxbZf37dmCDrkr__fEzQj7VA"
 APPROVED_CHANNELS = [
     # --- Long-Form Channels (Might have some shorts) ---
     "UCCezIgC97PvUuR4_gbFUs5g",  # Corey Schafer (Correct ID)
-    "UCCezIgC97PvUuR4_gbFUs5g",  # Traversy Media (Was correct)
+    "UC29ju8bIPH5as8OGnQzwJyA",  # Traversy Media (Was correct)
     "UCcabW7890RKJzL968QWEykA",  # CS50 (Correct ID)
     "UC_x5XG1OV2P6uZZ5FSM9Ttw",  # Khan Academy (Was correct)
     "UCWv7vMbMWH4-V0ZXdmDpPBA",  # Programming with Mosh (Was correct)
@@ -37,8 +37,8 @@ def parse_duration(duration_str):
 
 def build_shorts_database():
     """
-    Fetches all shorts from approved channels and saves them to a JSON file.
-    This is the 100% accurate 2-step (duration check) method.
+    Fetches ALL shorts from approved channels using pagination 
+    and saves them to a JSON file.
     """
     all_video_ids = []
     
@@ -46,11 +46,15 @@ def build_shorts_database():
     playlist_url = "https://www.googleapis.com/youtube/v3/playlistItems"
     videos_url = "https://www.googleapis.com/youtube/v3/videos"
 
-    print("--- (Builder) Starting Step 1: Get Video IDs ---")
+    print("--- (Builder) Starting Step 1: Get ALL Video IDs (with Pagination) ---")
 
-    # --- STEP 1: Get the 50 most recent video IDs from each channel ---
+    # --- STEP 1: Get ALL video IDs from each channel ---
     for channel_id in APPROVED_CHANNELS:
-        print(f"Processing Channel: {channel_id}")
+        # Use set() to avoid processing the same ID twice (like Traversy Media)
+        unique_channels = set(APPROVED_CHANNELS)
+    
+    for channel_id in unique_channels:
+        print(f"\nProcessing Channel: {channel_id}")
         
         # 1a: Find the 'uploads' playlist ID
         channel_params = { "part": "contentDetails", "id": channel_id, "key": YOUR_YOUTUBE_API_KEY }
@@ -66,19 +70,41 @@ def build_shorts_database():
             print(f"!!! ERROR finding uploads for {channel_id}: {e}. Skipping.")
             continue
 
-        # 1b: Get the 50 videos from that 'uploads' playlist
-        playlist_params = { "part": "snippet", "playlistId": uploads_id, "key": YOUR_YOUTUBE_API_KEY, "maxResults": 50 }
-        try:
-            response = requests.get(playlist_url, params=playlist_params)
-            response.raise_for_status()
-            results = response.json()
-            for item in results.get("items", []):
-                all_video_ids.append(item["snippet"]["resourceId"]["videoId"])
-        except Exception as e:
-            print(f"!!! ERROR fetching playlist items for {uploads_id}: {e}. Skipping.")
-            continue
+        # 1b: Get ALL videos from that 'uploads' playlist using pagination
+        next_page_token = None
+        page_count = 1
+        
+        while True: # This loop will run for each "page" of 50 videos
+            print(f"  Fetching page {page_count}...")
+            playlist_params = { 
+                "part": "snippet", 
+                "playlistId": uploads_id, 
+                "key": YOUR_YOUTUBE_API_KEY, 
+                "maxResults": 50,
+                "pageToken": next_page_token # Will be None on the first loop
+            }
+            
+            try:
+                response = requests.get(playlist_url, params=playlist_params)
+                response.raise_for_status()
+                results = response.json()
+                
+                for item in results.get("items", []):
+                    all_video_ids.append(item["snippet"]["resourceId"]["videoId"])
+                
+                # Check if there's another page
+                next_page_token = results.get("nextPageToken")
+                if not next_page_token:
+                    print(f"  Reached the end for channel {channel_id}.")
+                    break # Exit the 'while True' loop
+                
+                page_count += 1
+                
+            except Exception as e:
+                print(f"!!! ERROR fetching playlist items for {uploads_id}: {e}. Skipping rest of this channel.")
+                break # Stop processing this channel if an error occurs
 
-    print(f"--- (Builder) Step 1 Complete: Found {len(all_video_ids)} total video IDs ---")
+    print(f"\n--- (Builder) Step 1 Complete: Found {len(all_video_ids)} total video IDs ---")
     
     # --- STEP 2: Get the duration for all videos in batches of 50 ---
     all_shorts_details = []
@@ -96,6 +122,7 @@ def build_shorts_database():
             "key": YOUR_YOUTUBE_API_KEY
         }
         
+        print(f"  Checking duration for batch {int(i/batch_size) + 1}...")
         try:
             response = requests.get(videos_url, params=video_params)
             response.raise_for_status()
@@ -106,14 +133,13 @@ def build_shorts_database():
                 duration_str = item["contentDetails"]["duration"]
                 duration_sec = parse_duration(duration_str)
                 
-                # This is our 100% accurate filter!
-                if duration_sec > 0 and duration_sec <= 61: # 61 to be safe
+                if duration_sec > 0 and duration_sec <= 61: # 100% accurate filter
                     all_shorts_details.append(item) 
         except Exception as e:
             print(f"!!! ERROR checking video durations: {e}. Skipping batch.")
             continue
             
-    print(f"--- (Builder) Feed build complete: Found {len(all_shorts_details)} total shorts ---")
+    print(f"\n--- (Builder) Feed build complete: Found {len(all_shorts_details)} total shorts ---")
 
     # --- STEP 4: Save the final list to a JSON file ---
     db_filename = "shorts_db.json"
@@ -121,6 +147,8 @@ def build_shorts_database():
         json.dump(all_shorts_details, f, indent=2, ensure_ascii=False)
         
     print(f"\n✅ SUCCESS! Database saved to {db_filename}")
+    print(f"Total videos processed: {len(all_video_ids)}")
+    print(f"Total shorts found: {len(all_shorts_details)}")
 
 # --- This makes the script runnable from the command line ---
 if __name__ == "__main__":
