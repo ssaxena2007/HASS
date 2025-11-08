@@ -181,6 +181,186 @@
   },
   {
     "kind": "youtube#video",
+    "etag": "9kwEJhlDhVOtsVt3LKOgpoQjcOw",
+    "id": "uNM5QeJd64Q",
+    "snippet": {
+      "publishedAt": "2025-11-06T14:47:30Z",
+      "channelId": "UCCezIgC97PvUuR4_gbFUs5g",
+      "title": "Create Your First Pydantic Model in Python",
+      "description": "Watch the full free tutorial here:\nhttps://youtu.be/M81pfi64eeM\n\nMore Python tutorials: youtube.com/c/coreyms\n\n#Python #Tutorial #Pydantic",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/uNM5QeJd64Q/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/uNM5QeJd64Q/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/uNM5QeJd64Q/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/uNM5QeJd64Q/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/uNM5QeJd64Q/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Corey Schafer",
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Create Your First Pydantic Model in Python",
+        "description": "Watch the full free tutorial here:\nhttps://youtu.be/M81pfi64eeM\n\nMore Python tutorials: youtube.com/c/coreyms\n\n#Python #Tutorial #Pydantic"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT53S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "IGk393WKcS5yJfTsB6X6wNq44kI",
+    "id": "q73vG-oG9KE",
+    "snippet": {
+      "publishedAt": "2025-11-04T00:01:51Z",
+      "channelId": "UCCezIgC97PvUuR4_gbFUs5g",
+      "title": "Stop Writing Manual Validation Code in Python",
+      "description": "Watch the full free tutorial here:\nhttps://youtu.be/M81pfi64eeM\n\nMore Python tutorials: youtube.com/@coreyms\n\n#Python #Pydantic",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/q73vG-oG9KE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/q73vG-oG9KE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/q73vG-oG9KE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/q73vG-oG9KE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/q73vG-oG9KE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Corey Schafer",
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Stop Writing Manual Validation Code in Python",
+        "description": "Watch the full free tutorial here:\nhttps://youtu.be/M81pfi64eeM\n\nMore Python tutorials: youtube.com/@coreyms\n\n#Python #Pydantic"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT55S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "urnGGvAV3H75vuW_F8CLy1XQUCo",
+    "id": "LQ1tm5lkaLI",
+    "snippet": {
+      "publishedAt": "2024-04-17T21:52:16Z",
+      "channelId": "UCCezIgC97PvUuR4_gbFUs5g",
+      "title": "Python Quick Tip: Secure Passwords and Sensitive Info with DotEnv #Shorts #Python #Programming",
+      "description": "Learn how to properly manage sensitive information within Python scripts.\nWatch the full tutorial for a more in-depth explanation: https://youtu.be/PYuTzLswn_Y\n\n#Python #Programming #CodingTips #Shorts \n\nSubscribe to view our entire library of programming tutorials!",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/LQ1tm5lkaLI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/LQ1tm5lkaLI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/LQ1tm5lkaLI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/LQ1tm5lkaLI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/LQ1tm5lkaLI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Corey Schafer",
+      "tags": [
+        "Python",
+        "Quick Tip",
+        "Shorts",
+        "Programming",
+        "Security",
+        "Password",
+        "API Keys",
+        "python environment variables",
+        "python tutorial",
+        "environment variables"
+      ],
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Python Quick Tip: Secure Passwords and Sensitive Info with DotEnv #Shorts #Python #Programming",
+        "description": "Learn how to properly manage sensitive information within Python scripts.\nWatch the full tutorial for a more in-depth explanation: https://youtu.be/PYuTzLswn_Y\n\n#Python #Programming #CodingTips #Shorts \n\nSubscribe to view our entire library of programming tutorials!"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "contentDetails": {
+      "duration": "PT55S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
     "etag": "6EuocvjEIA4ZwJXdmSX8iGBuATA",
     "id": "lytlt8gBAYo",
     "snippet": {
@@ -3112,6 +3292,183 @@
   },
   {
     "kind": "youtube#video",
+    "etag": "PEkffWEdXWAGVATCuApoyqblL-g",
+    "id": "PqDfILvhAtM",
+    "snippet": {
+      "publishedAt": "2025-10-30T16:00:45Z",
+      "channelId": "UCFbNIlppjAuEX4znoulh0Cw",
+      "title": "Create Professional CSS Animations with This Dev Tool",
+      "description": "Full Video: https://youtu.be/Qf_5zmxrxzE\n\n\n🌎 Find Me Here:\n\nMy Blog: https://blog.webdevsimplified.com\nMy Courses: https://courses.webdevsimplified.com\nPatreon: https://www.patreon.com/WebDevSimplified\nTwitter: https://twitter.com/DevSimplified\nDiscord: https://discord.gg/7StTjnR\nGitHub: https://github.com/WebDevSimplified\nCodePen: https://codepen.io/WebDevSimplified\n\n\n#Shorts",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/PqDfILvhAtM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/PqDfILvhAtM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/PqDfILvhAtM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/PqDfILvhAtM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/PqDfILvhAtM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Web Dev Simplified",
+      "tags": [
+        "webdevsimplified"
+      ],
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Create Professional CSS Animations with This Dev Tool",
+        "description": "Full Video: https://youtu.be/Qf_5zmxrxzE\n\n\n🌎 Find Me Here:\n\nMy Blog: https://blog.webdevsimplified.com\nMy Courses: https://courses.webdevsimplified.com\nPatreon: https://www.patreon.com/WebDevSimplified\nTwitter: https://twitter.com/DevSimplified\nDiscord: https://discord.gg/7StTjnR\nGitHub: https://github.com/WebDevSimplified\nCodePen: https://codepen.io/WebDevSimplified\n\n\n#Shorts"
+      },
+      "defaultAudioLanguage": "en-US"
+    },
+    "contentDetails": {
+      "duration": "PT44S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "cePgDXSUPjiUmCMKwr5J0IzBhk8",
+    "id": "EQOa-uavBsc",
+    "snippet": {
+      "publishedAt": "2025-08-28T16:00:32Z",
+      "channelId": "UCFbNIlppjAuEX4znoulh0Cw",
+      "title": "Must Know Dev Tools Feature - Save Hours",
+      "description": "🌎 Find Me Here:\n\nMy Blog: https://blog.webdevsimplified.com\nMy Courses: https://courses.webdevsimplified.com\nPatreon: https://www.patreon.com/WebDevSimplified\nTwitter: https://twitter.com/DevSimplified\nDiscord: https://discord.gg/7StTjnR\nGitHub: https://github.com/WebDevSimplified\nCodePen: https://codepen.io/WebDevSimplified\n\n\n#Shorts",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/EQOa-uavBsc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/EQOa-uavBsc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/EQOa-uavBsc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/EQOa-uavBsc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/EQOa-uavBsc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Web Dev Simplified",
+      "tags": [
+        "webdevsimplified"
+      ],
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Must Know Dev Tools Feature - Save Hours",
+        "description": "🌎 Find Me Here:\n\nMy Blog: https://blog.webdevsimplified.com\nMy Courses: https://courses.webdevsimplified.com\nPatreon: https://www.patreon.com/WebDevSimplified\nTwitter: https://twitter.com/DevSimplified\nDiscord: https://discord.gg/7StTjnR\nGitHub: https://github.com/WebDevSimplified\nCodePen: https://codepen.io/WebDevSimplified\n\n\n#Shorts"
+      },
+      "defaultAudioLanguage": "en-US"
+    },
+    "contentDetails": {
+      "duration": "PT52S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "m23GPo94aROUycH0DX9P_hCeKDE",
+    "id": "NSWwX_ke760",
+    "snippet": {
+      "publishedAt": "2025-07-24T16:00:43Z",
+      "channelId": "UCFbNIlppjAuEX4znoulh0Cw",
+      "title": "I Made My Own Shadcn Library (and you can too)",
+      "description": "Full Video: https://youtu.be/2NV1w1m9cTY\n\n\n🌎 Find Me Here:\n\nMy Blog: https://blog.webdevsimplified.com\nMy Courses: https://courses.webdevsimplified.com\nPatreon: https://www.patreon.com/WebDevSimplified\nTwitter: https://twitter.com/DevSimplified\nDiscord: https://discord.gg/7StTjnR\nGitHub: https://github.com/WebDevSimplified\nCodePen: https://codepen.io/WebDevSimplified\n\n\n#Shorts",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/NSWwX_ke760/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/NSWwX_ke760/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/NSWwX_ke760/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/NSWwX_ke760/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/NSWwX_ke760/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Web Dev Simplified",
+      "tags": [
+        "webdevsimplified"
+      ],
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "I Made My Own Shadcn Library (and you can too)",
+        "description": "Full Video: https://youtu.be/2NV1w1m9cTY\n\n\n🌎 Find Me Here:\n\nMy Blog: https://blog.webdevsimplified.com\nMy Courses: https://courses.webdevsimplified.com\nPatreon: https://www.patreon.com/WebDevSimplified\nTwitter: https://twitter.com/DevSimplified\nDiscord: https://discord.gg/7StTjnR\nGitHub: https://github.com/WebDevSimplified\nCodePen: https://codepen.io/WebDevSimplified\n\n\n#Shorts"
+      },
+      "defaultAudioLanguage": "en-US"
+    },
+    "contentDetails": {
+      "duration": "PT52S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
     "etag": "g_sLnL1m5y7zdNL4haWnKjODgfE",
     "id": "f3UIwEZx47w",
     "snippet": {
@@ -4450,6 +4807,1200 @@
       "definition": "hd",
       "caption": "false",
       "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "2HYRlUThuNJkWx92WgdWSlqB8nE",
+    "id": "5L89INx43zk",
+    "snippet": {
+      "publishedAt": "2025-09-30T02:20:05Z",
+      "channelId": "UCuudpdbKmQWq2PPzYgVCWlA",
+      "title": "Today I learned THIS neat feature in Python #coding #python",
+      "description": "Today I learned this neat feature in Python.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/5L89INx43zk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/5L89INx43zk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/5L89INx43zk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/5L89INx43zk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/5L89INx43zk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Indently",
+      "tags": [
+        "pyton",
+        "pyhton",
+        "pythn"
+      ],
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en-GB",
+      "localized": {
+        "title": "Today I learned THIS neat feature in Python #coding #python",
+        "description": "Today I learned this neat feature in Python."
+      },
+      "defaultAudioLanguage": "en-GB"
+    },
+    "contentDetails": {
+      "duration": "PT47S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "NKUESgVNRNB_YSMv3dD0opTme3g",
+    "id": "XEBRcMtYbbM",
+    "snippet": {
+      "publishedAt": "2025-09-22T09:27:23Z",
+      "channelId": "UCuudpdbKmQWq2PPzYgVCWlA",
+      "title": "THIS saved me in Python #python #coding #programming",
+      "description": "This solution saved me in Python.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/XEBRcMtYbbM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/XEBRcMtYbbM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/XEBRcMtYbbM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/XEBRcMtYbbM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/XEBRcMtYbbM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Indently",
+      "tags": [
+        "pyton",
+        "pyhton",
+        "pythn"
+      ],
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en-GB",
+      "localized": {
+        "title": "THIS saved me in Python #python #coding #programming",
+        "description": "This solution saved me in Python."
+      },
+      "defaultAudioLanguage": "en-GB"
+    },
+    "contentDetails": {
+      "duration": "PT1M1S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "idbEciBiKTqnUYqf2i2Q72N0b-I",
+    "id": "HCtr29g8w0Q",
+    "snippet": {
+      "publishedAt": "2025-09-10T00:52:55Z",
+      "channelId": "UCuudpdbKmQWq2PPzYgVCWlA",
+      "title": "I use THIS everyday in Python #coding #python #learnpython",
+      "description": "I use this everyday in Python.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/HCtr29g8w0Q/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/HCtr29g8w0Q/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/HCtr29g8w0Q/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/HCtr29g8w0Q/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/HCtr29g8w0Q/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Indently",
+      "tags": [
+        "pyton",
+        "pyhton",
+        "pythn"
+      ],
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en-GB",
+      "localized": {
+        "title": "I use THIS everyday in Python #coding #python #learnpython",
+        "description": "I use this everyday in Python."
+      },
+      "defaultAudioLanguage": "en-GB"
+    },
+    "contentDetails": {
+      "duration": "PT51S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "EG-1j9Cj4-lPDTHYUUGpKWm4NLI",
+    "id": "saLuD4kk9GY",
+    "snippet": {
+      "publishedAt": "2025-06-28T10:46:20Z",
+      "channelId": "UCuudpdbKmQWq2PPzYgVCWlA",
+      "title": "Python 3.14 made THIS simple #coding #learnpython #python",
+      "description": "Python 3.14 made this simple",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/saLuD4kk9GY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/saLuD4kk9GY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/saLuD4kk9GY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/saLuD4kk9GY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/saLuD4kk9GY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Indently",
+      "tags": [
+        "pyton",
+        "pyhton",
+        "pythn"
+      ],
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en-GB",
+      "localized": {
+        "title": "Python 3.14 made THIS simple #coding #learnpython #python",
+        "description": "Python 3.14 made this simple"
+      },
+      "defaultAudioLanguage": "en-GB"
+    },
+    "contentDetails": {
+      "duration": "PT53S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "VzXZWC-gqlX_ge3SGdZAibG2scc",
+    "id": "f7KgDNZU3-Y",
+    "snippet": {
+      "publishedAt": "2025-04-18T05:17:15Z",
+      "channelId": "UCZgt6AzoyjslHTC9dz0UoTw",
+      "title": "gRPC, WebSocket and WebHook!",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/f7KgDNZU3-Y/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/f7KgDNZU3-Y/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/f7KgDNZU3-Y/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/f7KgDNZU3-Y/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/f7KgDNZU3-Y/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "ByteByteGo",
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "gRPC, WebSocket and WebHook!",
+        "description": ""
+      },
+      "defaultAudioLanguage": "en-US"
+    },
+    "contentDetails": {
+      "duration": "PT52S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "WeB3OJVeUxHaXiK3QlEiu_1JIdc",
+    "id": "rQhost93z40",
+    "snippet": {
+      "publishedAt": "2025-03-10T14:55:18Z",
+      "channelId": "UCZgt6AzoyjslHTC9dz0UoTw",
+      "title": "What is GraphQL?",
+      "description": "GraphQL \n- Provides a single endpoint for clients to query for precisely the data they need. \n- Clients specify the exact fields required in nested queries, and the server returns optimized payloads containing just those fields. \n- Supports Mutations for modifying data and Subscriptions for real-time notifications. \n- Great for aggregating data from multiple sources and works well with rapidly evolving frontend requirements. \n- However, it shifts complexity to the client side and can allow abusive queries if not properly safeguarded \n- Caching strategies can be more complicated than REST.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/rQhost93z40/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/rQhost93z40/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/rQhost93z40/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/rQhost93z40/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/rQhost93z40/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "ByteByteGo",
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "What is GraphQL?",
+        "description": "GraphQL \n- Provides a single endpoint for clients to query for precisely the data they need. \n- Clients specify the exact fields required in nested queries, and the server returns optimized payloads containing just those fields. \n- Supports Mutations for modifying data and Subscriptions for real-time notifications. \n- Great for aggregating data from multiple sources and works well with rapidly evolving frontend requirements. \n- However, it shifts complexity to the client side and can allow abusive queries if not properly safeguarded \n- Caching strategies can be more complicated than REST."
+      },
+      "defaultAudioLanguage": "en-US"
+    },
+    "contentDetails": {
+      "duration": "PT42S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "LGZ75Gn8pJbkGNMKV8sX2pfpj7M",
+    "id": "hQUjpbb75eY",
+    "snippet": {
+      "publishedAt": "2024-09-16T15:30:14Z",
+      "channelId": "UCZgt6AzoyjslHTC9dz0UoTw",
+      "title": "REST APIs Explained in 30 secs #javascript #python #web #coding #programming",
+      "description": "Get our 158-page System Design PDF for free by subscribing to our weekly newsletter: https://bit.ly/bytebytegoYTshorts\n\nAnimation tools: Adobe Illustrator and After Effects.\n\nCheckout our bestselling System Design Interview books: \nVolume 1: https://amzn.to/3Ou7gkd\nVolume 2: https://amzn.to/3HqGozy\n\nThe digital version of System Design Interview books: https://bit.ly/3mlDSk9\n\nABOUT US: \nCovering topics and trends in large-scale system design, from the authors of the best-selling System Design Interview series.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/hQUjpbb75eY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/hQUjpbb75eY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/hQUjpbb75eY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/hQUjpbb75eY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/hQUjpbb75eY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "ByteByteGo",
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "REST APIs Explained in 30 secs #javascript #python #web #coding #programming",
+        "description": "Get our 158-page System Design PDF for free by subscribing to our weekly newsletter: https://bit.ly/bytebytegoYTshorts\n\nAnimation tools: Adobe Illustrator and After Effects.\n\nCheckout our bestselling System Design Interview books: \nVolume 1: https://amzn.to/3Ou7gkd\nVolume 2: https://amzn.to/3HqGozy\n\nThe digital version of System Design Interview books: https://bit.ly/3mlDSk9\n\nABOUT US: \nCovering topics and trends in large-scale system design, from the authors of the best-selling System Design Interview series."
+      },
+      "defaultAudioLanguage": "en-US"
+    },
+    "contentDetails": {
+      "duration": "PT32S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "OiAl6eM9CbLlQ6SqAm7Tddxec38",
+    "id": "c1a6hxNTsmM",
+    "snippet": {
+      "publishedAt": "2023-12-18T16:00:32Z",
+      "channelId": "UCzNf0liwUzMN6_pixbQlMhQ",
+      "title": "Happy Monday! Working on the next video...",
+      "description": "🔥 My course: Responsive Design for Beginners! https://coder-coder.com/responsive/\n\n👕 Coder Coder merch: https://coder-coder.myspreadshop.com/\n\n🎨 Get my VS Code theme: https://marketplace.visualstudio.com/items?itemName=CoderCoder.codercoder-dark-theme\n\n🔽 FOLLOW CODER CODER\nBlog -- https://coder-coder.com/ \nTwitter -- https://twitter.com/thecodercoder\nInstagram --  https://www.instagram.com/thecodercoder\n\n\n#css #javascript #html",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/c1a6hxNTsmM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/c1a6hxNTsmM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/c1a6hxNTsmM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/c1a6hxNTsmM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/c1a6hxNTsmM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Coder Coder",
+      "tags": [
+        "web development",
+        "html",
+        "css"
+      ],
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Happy Monday! Working on the next video...",
+        "description": "🔥 My course: Responsive Design for Beginners! https://coder-coder.com/responsive/\n\n👕 Coder Coder merch: https://coder-coder.myspreadshop.com/\n\n🎨 Get my VS Code theme: https://marketplace.visualstudio.com/items?itemName=CoderCoder.codercoder-dark-theme\n\n🔽 FOLLOW CODER CODER\nBlog -- https://coder-coder.com/ \nTwitter -- https://twitter.com/thecodercoder\nInstagram --  https://www.instagram.com/thecodercoder\n\n\n#css #javascript #html"
+      },
+      "defaultAudioLanguage": "en-US"
+    },
+    "contentDetails": {
+      "duration": "PT32S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "vsSHUvv_zDosjr7ikGtMzVLjht0",
+    "id": "kkC13zrMT9I",
+    "snippet": {
+      "publishedAt": "2023-12-08T15:15:03Z",
+      "channelId": "UCzNf0liwUzMN6_pixbQlMhQ",
+      "title": "Code faster with VS Code shortcuts #coding #html #css",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/kkC13zrMT9I/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/kkC13zrMT9I/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/kkC13zrMT9I/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/kkC13zrMT9I/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/kkC13zrMT9I/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Coder Coder",
+      "tags": [
+        "web development",
+        "html",
+        "css"
+      ],
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Code faster with VS Code shortcuts #coding #html #css",
+        "description": ""
+      },
+      "defaultAudioLanguage": "en-US"
+    },
+    "contentDetails": {
+      "duration": "PT58S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "LOUlcOfTEE2UymK15YFySJg-M3g",
+    "id": "iIyqUs4ZoSA",
+    "snippet": {
+      "publishedAt": "2023-10-14T14:00:35Z",
+      "channelId": "UCzNf0liwUzMN6_pixbQlMhQ",
+      "title": "what reading the CSS docs is like IRL",
+      "description": "The pain is real.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/iIyqUs4ZoSA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/iIyqUs4ZoSA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/iIyqUs4ZoSA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/iIyqUs4ZoSA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/iIyqUs4ZoSA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Coder Coder",
+      "tags": [
+        "web development",
+        "css"
+      ],
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "what reading the CSS docs is like IRL",
+        "description": "The pain is real."
+      },
+      "defaultAudioLanguage": "en-US"
+    },
+    "contentDetails": {
+      "duration": "PT49S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "PuKVJXmLG4VeykX83IpTt_avu5Q",
+    "id": "z_WomUNYTF4",
+    "snippet": {
+      "publishedAt": "2023-03-24T14:00:41Z",
+      "channelId": "UCzNf0liwUzMN6_pixbQlMhQ",
+      "title": "weird issue when putting an image in an anchor link",
+      "description": "🔥 My course: Responsive Design for Beginners! https://coder-coder.com/responsive/\n\n💻 Become a full-stack web dev with Zero to Mastery: https://academy.zerotomastery.io/a/aff_338z7xnj/external?affcode=441520_ti97uk6b\n\n____________________________\n\n\nSUPPORT THE CHANNEL\n⭐ Join channel members and get perks: https://www.youtube.com/channel/UCzNf0liwUzMN6_pixbQlMhQ/join\n👏🏽 Hit the THANKS button in any video!\n🎨 Get my VS Code theme: https://marketplace.visualstudio.com/items?itemName=CoderCoder.codercoder-dark-theme\n\n\nWANT TO LEARN WEB DEV?\nCheck out my courses:\n🌟 Responsive Design for Beginners: https://coder-coder.com/responsive/\n🌟 Gulp for Beginners: https://coder-coder.com/gulp-course/\n\n\nRECOMMENDATIONS\n⌨ My keyboard, Vissles V84 -- https://vissles.com/?ref=mu96kxst5w -- 🔥 get 10% off with code THECODERCODER -- \n💻  Other gear -- https://www.amazon.com/shop/thecodercoder?listId=1LMCKGUTMVYXD\n📚 My Favorite Books -- https://coder-coder.com/best-web-development-books/\n📺 My Favorite Courses -- https://coder-coder.com/best-web-development-courses/\n\n\n🔽 FOLLOW CODER CODER\nBlog -- https://coder-coder.com/ \nTwitter -- https://twitter.com/thecodercoder\nInstagram --  https://www.instagram.com/thecodercoder\n\n\n#webdevelopment #coding #programming",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/z_WomUNYTF4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/z_WomUNYTF4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/z_WomUNYTF4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/z_WomUNYTF4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/z_WomUNYTF4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Coder Coder",
+      "tags": [
+        "web development",
+        "html"
+      ],
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "weird issue when putting an image in an anchor link",
+        "description": "🔥 My course: Responsive Design for Beginners! https://coder-coder.com/responsive/\n\n💻 Become a full-stack web dev with Zero to Mastery: https://academy.zerotomastery.io/a/aff_338z7xnj/external?affcode=441520_ti97uk6b\n\n____________________________\n\n\nSUPPORT THE CHANNEL\n⭐ Join channel members and get perks: https://www.youtube.com/channel/UCzNf0liwUzMN6_pixbQlMhQ/join\n👏🏽 Hit the THANKS button in any video!\n🎨 Get my VS Code theme: https://marketplace.visualstudio.com/items?itemName=CoderCoder.codercoder-dark-theme\n\n\nWANT TO LEARN WEB DEV?\nCheck out my courses:\n🌟 Responsive Design for Beginners: https://coder-coder.com/responsive/\n🌟 Gulp for Beginners: https://coder-coder.com/gulp-course/\n\n\nRECOMMENDATIONS\n⌨ My keyboard, Vissles V84 -- https://vissles.com/?ref=mu96kxst5w -- 🔥 get 10% off with code THECODERCODER -- \n💻  Other gear -- https://www.amazon.com/shop/thecodercoder?listId=1LMCKGUTMVYXD\n📚 My Favorite Books -- https://coder-coder.com/best-web-development-books/\n📺 My Favorite Courses -- https://coder-coder.com/best-web-development-courses/\n\n\n🔽 FOLLOW CODER CODER\nBlog -- https://coder-coder.com/ \nTwitter -- https://twitter.com/thecodercoder\nInstagram --  https://www.instagram.com/thecodercoder\n\n\n#webdevelopment #coding #programming"
+      },
+      "defaultAudioLanguage": "en-US"
+    },
+    "contentDetails": {
+      "duration": "PT50S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "Lg0HggJ4iBNIACsJf2ASAxpxA14",
+    "id": "2eAZPFLRsGM",
+    "snippet": {
+      "publishedAt": "2022-09-12T14:15:00Z",
+      "channelId": "UCzNf0liwUzMN6_pixbQlMhQ",
+      "title": "Coding timelapse (working on my course)",
+      "description": "🔥 My course: Responsive Design for Beginners! https://coder-coder.com/responsive/\n\n💻 Become a full-stack web dev with Zero to Mastery: https://academy.zerotomastery.io/a/aff_338z7xnj/external?affcode=441520_ti97uk6b\n\n____________________________\n\n\nSUPPORT THE CHANNEL\n⭐ Join channel members and get perks: https://www.youtube.com/channel/UCzNf0liwUzMN6_pixbQlMhQ/join\n👏🏽 Hit the THANKS button in any video!\n🎨 Get my VS Code theme: https://marketplace.visualstudio.com/items?itemName=CoderCoder.codercoder-dark-theme\n\n\nWANT TO LEARN WEB DEV?\nCheck out my courses:\n🌟 Responsive Design for Beginners: https://coder-coder.com/responsive/\n🌟 Gulp for Beginners: https://coder-coder.com/gulp-course/\n\n\nRECOMMENDATIONS\n⌨ My keyboard, Vissles V84 -- https://vissles.com/?ref=mu96kxst5w -- 🔥 get 10% off with code THECODERCODER -- \n💻  Other gear -- https://www.amazon.com/shop/thecodercoder?listId=1LMCKGUTMVYXD\n📚 My Favorite Books -- https://coder-coder.com/best-web-development-books/\n📺 My Favorite Courses -- https://coder-coder.com/best-web-development-courses/\n\n\n🔽 FOLLOW CODER CODER\nBlog -- https://coder-coder.com/ \nTwitter -- https://twitter.com/thecodercoder\nInstagram --  https://www.instagram.com/thecodercoder\n\n\n#webdevelopment #coding #programming",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/2eAZPFLRsGM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/2eAZPFLRsGM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/2eAZPFLRsGM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/2eAZPFLRsGM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      "channelTitle": "Coder Coder",
+      "tags": [
+        "web development",
+        "html",
+        "css",
+        "coding"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Coding timelapse (working on my course)",
+        "description": "🔥 My course: Responsive Design for Beginners! https://coder-coder.com/responsive/\n\n💻 Become a full-stack web dev with Zero to Mastery: https://academy.zerotomastery.io/a/aff_338z7xnj/external?affcode=441520_ti97uk6b\n\n____________________________\n\n\nSUPPORT THE CHANNEL\n⭐ Join channel members and get perks: https://www.youtube.com/channel/UCzNf0liwUzMN6_pixbQlMhQ/join\n👏🏽 Hit the THANKS button in any video!\n🎨 Get my VS Code theme: https://marketplace.visualstudio.com/items?itemName=CoderCoder.codercoder-dark-theme\n\n\nWANT TO LEARN WEB DEV?\nCheck out my courses:\n🌟 Responsive Design for Beginners: https://coder-coder.com/responsive/\n🌟 Gulp for Beginners: https://coder-coder.com/gulp-course/\n\n\nRECOMMENDATIONS\n⌨ My keyboard, Vissles V84 -- https://vissles.com/?ref=mu96kxst5w -- 🔥 get 10% off with code THECODERCODER -- \n💻  Other gear -- https://www.amazon.com/shop/thecodercoder?listId=1LMCKGUTMVYXD\n📚 My Favorite Books -- https://coder-coder.com/best-web-development-books/\n📺 My Favorite Courses -- https://coder-coder.com/best-web-development-courses/\n\n\n🔽 FOLLOW CODER CODER\nBlog -- https://coder-coder.com/ \nTwitter -- https://twitter.com/thecodercoder\nInstagram --  https://www.instagram.com/thecodercoder\n\n\n#webdevelopment #coding #programming"
+      },
+      "defaultAudioLanguage": "en-US"
+    },
+    "contentDetails": {
+      "duration": "PT37S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "Z2gotddN_TybczRQuWJPW6MBgeQ",
+    "id": "R-xXjFjAUFA",
+    "snippet": {
+      "publishedAt": "2022-08-04T23:29:05Z",
+      "channelId": "UCzNf0liwUzMN6_pixbQlMhQ",
+      "title": "Free resources to learn web dev that you may not have heard of",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/R-xXjFjAUFA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/R-xXjFjAUFA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/R-xXjFjAUFA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/R-xXjFjAUFA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/R-xXjFjAUFA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Coder Coder",
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Free resources to learn web dev that you may not have heard of",
+        "description": ""
+      },
+      "defaultAudioLanguage": "en-US"
+    },
+    "contentDetails": {
+      "duration": "PT38S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "JGMz6RZx73bPwbjTXlaNuASTK4I",
+    "id": "ii98D1OtWfg",
+    "snippet": {
+      "publishedAt": "2022-02-17T15:00:22Z",
+      "channelId": "UCzNf0liwUzMN6_pixbQlMhQ",
+      "title": "Free games to learn CSS!",
+      "description": "Links to the games mentioned:\nCSS Diner -- https://flukeout.github.io/\nFlexbox Zombies -- https://flexboxzombies.com/p/flexbox-zombies\nFlexbox Froggy -- https://codepip.com/games/flexbox-froggy/\nFlex Box Adventure -- https://codingfantasy.com/games/flexboxadventure\nCSS Grid Garden -- https://cssgridgarden.com/\nGrid Attack -- https://codingfantasy.com/games/css-grid-attack\nCSS Battle -- https://cssbattle.dev/",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/ii98D1OtWfg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ii98D1OtWfg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ii98D1OtWfg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ii98D1OtWfg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/ii98D1OtWfg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Coder Coder",
+      "tags": [
+        "css",
+        "programming",
+        "web development"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Free games to learn CSS!",
+        "description": "Links to the games mentioned:\nCSS Diner -- https://flukeout.github.io/\nFlexbox Zombies -- https://flexboxzombies.com/p/flexbox-zombies\nFlexbox Froggy -- https://codepip.com/games/flexbox-froggy/\nFlex Box Adventure -- https://codingfantasy.com/games/flexboxadventure\nCSS Grid Garden -- https://cssgridgarden.com/\nGrid Attack -- https://codingfantasy.com/games/css-grid-attack\nCSS Battle -- https://cssbattle.dev/"
+      },
+      "defaultAudioLanguage": "en-US"
+    },
+    "contentDetails": {
+      "duration": "PT41S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "Gq2yVEQFqNkyZEXRvJm7oSVlAK0",
+    "id": "K0Yvgu1u25s",
+    "snippet": {
+      "publishedAt": "2022-01-27T15:30:02Z",
+      "channelId": "UCzNf0liwUzMN6_pixbQlMhQ",
+      "title": "Super easy WORDLE cheat",
+      "description": "Did you know that Wordle stores all the game data in your browser's local storage? Including the solution word?\n\n#shorts #wordle #programming",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/K0Yvgu1u25s/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/K0Yvgu1u25s/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/K0Yvgu1u25s/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/K0Yvgu1u25s/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/K0Yvgu1u25s/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Coder Coder",
+      "tags": [
+        "shorts",
+        "wordle",
+        "programming"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Super easy WORDLE cheat",
+        "description": "Did you know that Wordle stores all the game data in your browser's local storage? Including the solution word?\n\n#shorts #wordle #programming"
+      },
+      "defaultAudioLanguage": "en-US"
+    },
+    "contentDetails": {
+      "duration": "PT25S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "Mgc0hpM8vlJWgEh23p2kII05wEs",
+    "id": "zyVZ73CBR7Y",
+    "snippet": {
+      "publishedAt": "2021-09-20T14:00:20Z",
+      "channelId": "UCzNf0liwUzMN6_pixbQlMhQ",
+      "title": "How to deploy your website for free",
+      "description": "Deploy your website for free with Cloudflare Pages: https://pages.cloudflare.com/?utm_source=paid&utm_medium=video&utm_term=&utm_content=&utm_campaign=acg321w-wo-pages-jessica-chan-video\n\nWatch the full video here! --  https://youtu.be/MTc2CTYoszY\n\n\n🔥 My course: Responsive Design for Beginners! https://coder-coder.com/responsive/\n\n💻 Become a full-stack web dev with Zero to Mastery: https://academy.zerotomastery.io/a/aff_338z7xnj/external?affcode=441520_ti97uk6b\n\n\nSUPPORT THE CHANNEL\n⭐ Join channel members and get perks: https://www.youtube.com/channel/UCzNf0liwUzMN6_pixbQlMhQ/join\n👏🏽 Hit the THANKS button in any video!\n🎨 Get my VS Code theme: https://marketplace.visualstudio.com/items?itemName=CoderCoder.codercoder-dark-theme\n\n\nWANT TO LEARN WEB DEV?\nCheck out my courses:\n🌟 Responsive Design for Beginners: https://coder-coder.com/responsive/\n🌟 Gulp for Beginners: https://coder-coder.com/gulp-course/\n\n\nRECOMMENDATIONS\n⌨ My keyboard, Vissles V84 -- https://vissles.com/?ref=mu96kxst5w -- 🔥 get 10% off with code THECODERCODER -- \n💻  Other gear -- https://www.amazon.com/shop/thecodercoder?listId=1LMCKGUTMVYXD\n📚 My Favorite Books -- https://coder-coder.com/best-web-development-books/\n📺 My Favorite Courses -- https://coder-coder.com/best-web-development-courses/\n\n\n🔽 FOLLOW CODER CODER\nBlog -- https://coder-coder.com/ \nTwitter -- https://twitter.com/thecodercoder\nInstagram --  https://www.instagram.com/thecodercoder\n\n\n#webdevelopment #coding #programming",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/zyVZ73CBR7Y/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/zyVZ73CBR7Y/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/zyVZ73CBR7Y/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/zyVZ73CBR7Y/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/zyVZ73CBR7Y/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Coder Coder",
+      "tags": [
+        "cloudflare",
+        "web development",
+        "programming"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "How to deploy your website for free",
+        "description": "Deploy your website for free with Cloudflare Pages: https://pages.cloudflare.com/?utm_source=paid&utm_medium=video&utm_term=&utm_content=&utm_campaign=acg321w-wo-pages-jessica-chan-video\n\nWatch the full video here! --  https://youtu.be/MTc2CTYoszY\n\n\n🔥 My course: Responsive Design for Beginners! https://coder-coder.com/responsive/\n\n💻 Become a full-stack web dev with Zero to Mastery: https://academy.zerotomastery.io/a/aff_338z7xnj/external?affcode=441520_ti97uk6b\n\n\nSUPPORT THE CHANNEL\n⭐ Join channel members and get perks: https://www.youtube.com/channel/UCzNf0liwUzMN6_pixbQlMhQ/join\n👏🏽 Hit the THANKS button in any video!\n🎨 Get my VS Code theme: https://marketplace.visualstudio.com/items?itemName=CoderCoder.codercoder-dark-theme\n\n\nWANT TO LEARN WEB DEV?\nCheck out my courses:\n🌟 Responsive Design for Beginners: https://coder-coder.com/responsive/\n🌟 Gulp for Beginners: https://coder-coder.com/gulp-course/\n\n\nRECOMMENDATIONS\n⌨ My keyboard, Vissles V84 -- https://vissles.com/?ref=mu96kxst5w -- 🔥 get 10% off with code THECODERCODER -- \n💻  Other gear -- https://www.amazon.com/shop/thecodercoder?listId=1LMCKGUTMVYXD\n📚 My Favorite Books -- https://coder-coder.com/best-web-development-books/\n📺 My Favorite Courses -- https://coder-coder.com/best-web-development-courses/\n\n\n🔽 FOLLOW CODER CODER\nBlog -- https://coder-coder.com/ \nTwitter -- https://twitter.com/thecodercoder\nInstagram --  https://www.instagram.com/thecodercoder\n\n\n#webdevelopment #coding #programming"
+      },
+      "defaultAudioLanguage": "en-US"
+    },
+    "contentDetails": {
+      "duration": "PT53S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "true",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "o54m8sYYyj0wL9sL2bKykZ784NY",
+    "id": "kQeAY_13XgY",
+    "snippet": {
+      "publishedAt": "2021-09-11T14:00:29Z",
+      "channelId": "UCzNf0liwUzMN6_pixbQlMhQ",
+      "title": "Front-end vs back-end explained like a restaurant",
+      "description": "🔥 My course: Responsive Design for Beginners! https://coder-coder.com/responsive/\n\n____________________________\n\n\nLINKS & RESOURCES\n💻 Learn full-stack web development and more with Zero to Mastery: \nhttps://zerotomastery.io/courses/?affcode=441520_ti97uk6b\n\n\nSUPPORT THE CHANNEL\n⭐ Join channel members and get perks: https://www.youtube.com/channel/UCzNf0liwUzMN6_pixbQlMhQ/join\n🏆 GitHub sponsors: https://github.com/sponsors/thecodercoder\n👏🏽 Hit the THANKS button in any video!\n🎨 Get my VS Code theme: https://marketplace.visualstudio.com/items?itemName=CoderCoder.codercoder-dark-theme\n\n\nWANT TO LEARN WEB DEV?\nCheck out my courses:\n🌟 Responsive Design for Beginners: https://coder-coder.com/responsive/\n🌟 Gulp for Beginners: https://coder-coder.com/gulp-course/\n\n\nRECOMMENDATIONS\n⌨ My keyboard-- get 10% off with code THECODERCODER -- https://vissles.com/?ref=mu96kxst5w\n💻  Other gear -- https://www.amazon.com/shop/thecodercoder?listId=1LMCKGUTMVYXD\n📚 My Favorite Books -- https://coder-coder.com/best-web-development-books/\n📺 My Favorite Courses -- https://coder-coder.com/best-web-development-courses/\n\n\n🔽 FOLLOW CODER CODER\nBlog -- https://coder-coder.com/ \nTwitter -- https://twitter.com/thecodercoder\nInstagram --  https://www.instagram.com/thecodercoder\n\n\n#webdevelopment #coding #programming",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/kQeAY_13XgY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/kQeAY_13XgY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/kQeAY_13XgY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/kQeAY_13XgY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/kQeAY_13XgY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Coder Coder",
+      "tags": [
+        "web development",
+        "html",
+        "css"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Front-end vs back-end explained like a restaurant",
+        "description": "🔥 My course: Responsive Design for Beginners! https://coder-coder.com/responsive/\n\n____________________________\n\n\nLINKS & RESOURCES\n💻 Learn full-stack web development and more with Zero to Mastery: \nhttps://zerotomastery.io/courses/?affcode=441520_ti97uk6b\n\n\nSUPPORT THE CHANNEL\n⭐ Join channel members and get perks: https://www.youtube.com/channel/UCzNf0liwUzMN6_pixbQlMhQ/join\n🏆 GitHub sponsors: https://github.com/sponsors/thecodercoder\n👏🏽 Hit the THANKS button in any video!\n🎨 Get my VS Code theme: https://marketplace.visualstudio.com/items?itemName=CoderCoder.codercoder-dark-theme\n\n\nWANT TO LEARN WEB DEV?\nCheck out my courses:\n🌟 Responsive Design for Beginners: https://coder-coder.com/responsive/\n🌟 Gulp for Beginners: https://coder-coder.com/gulp-course/\n\n\nRECOMMENDATIONS\n⌨ My keyboard-- get 10% off with code THECODERCODER -- https://vissles.com/?ref=mu96kxst5w\n💻  Other gear -- https://www.amazon.com/shop/thecodercoder?listId=1LMCKGUTMVYXD\n📚 My Favorite Books -- https://coder-coder.com/best-web-development-books/\n📺 My Favorite Courses -- https://coder-coder.com/best-web-development-courses/\n\n\n🔽 FOLLOW CODER CODER\nBlog -- https://coder-coder.com/ \nTwitter -- https://twitter.com/thecodercoder\nInstagram --  https://www.instagram.com/thecodercoder\n\n\n#webdevelopment #coding #programming"
+      },
+      "defaultAudioLanguage": "en-US"
+    },
+    "contentDetails": {
+      "duration": "PT28S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "rZhldSeWE-G0E2sjrGNDTa6SOdo",
+    "id": "NmfqqyTx4sc",
+    "snippet": {
+      "publishedAt": "2021-08-30T14:00:07Z",
+      "channelId": "UCzNf0liwUzMN6_pixbQlMhQ",
+      "title": "How do websites work?",
+      "description": "Watch the full video on the Web Developer Roadmap:  https://youtu.be/ysEN5RaKOlA\n\n🔥 My course: Responsive Design for Beginners! https://coder-coder.com/responsive/\n\n💻 Become a full-stack web dev with Zero to Mastery: https://academy.zerotomastery.io/a/aff_338z7xnj/external?affcode=441520_ti97uk6b\n\n\nSUPPORT THE CHANNEL\n⭐ Join channel members and get perks: https://www.youtube.com/channel/UCzNf0liwUzMN6_pixbQlMhQ/join\n👏🏽 Hit the THANKS button in any video!\n🎨 Get my VS Code theme: https://marketplace.visualstudio.com/items?itemName=CoderCoder.codercoder-dark-theme\n\n\nWANT TO LEARN WEB DEV?\nCheck out my courses:\n🌟 Responsive Design for Beginners: https://coder-coder.com/responsive/\n🌟 Gulp for Beginners: https://coder-coder.com/gulp-course/\n\n\nRECOMMENDATIONS\n⌨ My keyboard-- get 10% off with code THECODERCODER -- https://vissles.com/?ref=mu96kxst5w\n💻  Other gear -- https://www.amazon.com/shop/thecodercoder?listId=1LMCKGUTMVYXD\n📚 My Favorite Books -- https://coder-coder.com/best-web-development-books/\n📺 My Favorite Courses -- https://coder-coder.com/best-web-development-courses/\n\n\n🔽 FOLLOW CODER CODER\nBlog -- https://coder-coder.com/ \nTwitter -- https://twitter.com/thecodercoder\nInstagram --  https://www.instagram.com/thecodercoder\n\n\n#webdevelopment #coding #programming",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/NmfqqyTx4sc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/NmfqqyTx4sc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/NmfqqyTx4sc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/NmfqqyTx4sc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/NmfqqyTx4sc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Coder Coder",
+      "tags": [
+        "web development",
+        "html",
+        "css"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "How do websites work?",
+        "description": "Watch the full video on the Web Developer Roadmap:  https://youtu.be/ysEN5RaKOlA\n\n🔥 My course: Responsive Design for Beginners! https://coder-coder.com/responsive/\n\n💻 Become a full-stack web dev with Zero to Mastery: https://academy.zerotomastery.io/a/aff_338z7xnj/external?affcode=441520_ti97uk6b\n\n\nSUPPORT THE CHANNEL\n⭐ Join channel members and get perks: https://www.youtube.com/channel/UCzNf0liwUzMN6_pixbQlMhQ/join\n👏🏽 Hit the THANKS button in any video!\n🎨 Get my VS Code theme: https://marketplace.visualstudio.com/items?itemName=CoderCoder.codercoder-dark-theme\n\n\nWANT TO LEARN WEB DEV?\nCheck out my courses:\n🌟 Responsive Design for Beginners: https://coder-coder.com/responsive/\n🌟 Gulp for Beginners: https://coder-coder.com/gulp-course/\n\n\nRECOMMENDATIONS\n⌨ My keyboard-- get 10% off with code THECODERCODER -- https://vissles.com/?ref=mu96kxst5w\n💻  Other gear -- https://www.amazon.com/shop/thecodercoder?listId=1LMCKGUTMVYXD\n📚 My Favorite Books -- https://coder-coder.com/best-web-development-books/\n📺 My Favorite Courses -- https://coder-coder.com/best-web-development-courses/\n\n\n🔽 FOLLOW CODER CODER\nBlog -- https://coder-coder.com/ \nTwitter -- https://twitter.com/thecodercoder\nInstagram --  https://www.instagram.com/thecodercoder\n\n\n#webdevelopment #coding #programming"
+      },
+      "defaultAudioLanguage": "en-US"
+    },
+    "contentDetails": {
+      "duration": "PT30S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "true",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "Xp8KRGP8peH-7Xm84vpSZqt7AkA",
+    "id": "Z3UW6OuLleU",
+    "snippet": {
+      "publishedAt": "2021-08-25T14:00:24Z",
+      "channelId": "UCzNf0liwUzMN6_pixbQlMhQ",
+      "title": "Coding motivation tip: keep your goal in mind",
+      "description": "Full video: How to Stay Motivated When Learning to Code -- https://youtu.be/UQGoVB_zMYQ\n\n🔥 My course: Responsive Design for Beginners! https://coder-coder.com/responsive/\n\n💻 Become a full-stack web dev with Zero to Mastery: https://academy.zerotomastery.io/a/aff_338z7xnj/external?affcode=441520_ti97uk6b\n\n\nThis might seem obvious, but it's essential to keep your goal in mind when you're starting out. \nWhat's the most important reason that you're coding?\n\nIt could be to find a full-time job so you can support your family financially. Or to have a flexible career where you can live anywhere. Or to work for yourself without having a boss.\n\nOnce you know what you want, you can break that goal down into smaller more manageable goals that you can hit. Keep those smaller steps in mind, but write your big goal down somewhere that you can see it.\n\nWhenever you're bogged down in the thick of things, it'll remind you why you're working so hard :)\n\n____________________________\n\n\nSUPPORT THE CHANNEL\n⭐ Join channel members and get perks: https://www.youtube.com/channel/UCzNf0liwUzMN6_pixbQlMhQ/join\n👏🏽 Hit the THANKS button in any video!\n🎨 Get my VS Code theme: https://marketplace.visualstudio.com/items?itemName=CoderCoder.codercoder-dark-theme\n\n\nWANT TO LEARN WEB DEV?\nCheck out my courses:\n🌟 Responsive Design for Beginners: https://coder-coder.com/responsive/\n🌟 Gulp for Beginners: https://coder-coder.com/gulp-course/\n\n\nRECOMMENDATIONS\n⌨ My keyboard-- get 10% off with code THECODERCODER -- https://vissles.com/?ref=mu96kxst5w\n💻  Other gear -- https://www.amazon.com/shop/thecodercoder?listId=1LMCKGUTMVYXD\n📚 My Favorite Books -- https://coder-coder.com/best-web-development-books/\n📺 My Favorite Courses -- https://coder-coder.com/best-web-development-courses/\n\n\n🔽 FOLLOW CODER CODER\nBlog -- https://coder-coder.com/ \nTwitter -- https://twitter.com/thecodercoder\nInstagram --  https://www.instagram.com/thecodercoder\n\n\n#webdevelopment #coding #programming",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Z3UW6OuLleU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Z3UW6OuLleU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Z3UW6OuLleU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Z3UW6OuLleU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/Z3UW6OuLleU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Coder Coder",
+      "tags": [
+        "web development",
+        "html",
+        "css"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Coding motivation tip: keep your goal in mind",
+        "description": "Full video: How to Stay Motivated When Learning to Code -- https://youtu.be/UQGoVB_zMYQ\n\n🔥 My course: Responsive Design for Beginners! https://coder-coder.com/responsive/\n\n💻 Become a full-stack web dev with Zero to Mastery: https://academy.zerotomastery.io/a/aff_338z7xnj/external?affcode=441520_ti97uk6b\n\n\nThis might seem obvious, but it's essential to keep your goal in mind when you're starting out. \nWhat's the most important reason that you're coding?\n\nIt could be to find a full-time job so you can support your family financially. Or to have a flexible career where you can live anywhere. Or to work for yourself without having a boss.\n\nOnce you know what you want, you can break that goal down into smaller more manageable goals that you can hit. Keep those smaller steps in mind, but write your big goal down somewhere that you can see it.\n\nWhenever you're bogged down in the thick of things, it'll remind you why you're working so hard :)\n\n____________________________\n\n\nSUPPORT THE CHANNEL\n⭐ Join channel members and get perks: https://www.youtube.com/channel/UCzNf0liwUzMN6_pixbQlMhQ/join\n👏🏽 Hit the THANKS button in any video!\n🎨 Get my VS Code theme: https://marketplace.visualstudio.com/items?itemName=CoderCoder.codercoder-dark-theme\n\n\nWANT TO LEARN WEB DEV?\nCheck out my courses:\n🌟 Responsive Design for Beginners: https://coder-coder.com/responsive/\n🌟 Gulp for Beginners: https://coder-coder.com/gulp-course/\n\n\nRECOMMENDATIONS\n⌨ My keyboard-- get 10% off with code THECODERCODER -- https://vissles.com/?ref=mu96kxst5w\n💻  Other gear -- https://www.amazon.com/shop/thecodercoder?listId=1LMCKGUTMVYXD\n📚 My Favorite Books -- https://coder-coder.com/best-web-development-books/\n📺 My Favorite Courses -- https://coder-coder.com/best-web-development-courses/\n\n\n🔽 FOLLOW CODER CODER\nBlog -- https://coder-coder.com/ \nTwitter -- https://twitter.com/thecodercoder\nInstagram --  https://www.instagram.com/thecodercoder\n\n\n#webdevelopment #coding #programming"
+      },
+      "defaultAudioLanguage": "en-US"
+    },
+    "contentDetails": {
+      "duration": "PT31S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "true",
+      "licensedContent": true,
+      "contentRating": {},
+      "projection": "rectangular"
+    }
+  },
+  {
+    "kind": "youtube#video",
+    "etag": "jJRmrEsv04cSsTb2HvRCod5niSU",
+    "id": "GnD7IQ48IQE",
+    "snippet": {
+      "publishedAt": "2021-08-18T14:00:09Z",
+      "channelId": "UCzNf0liwUzMN6_pixbQlMhQ",
+      "title": "Coding motivation: slow and steady wins the race 🐢🏁",
+      "description": "🔥 My course: Responsive Design for Beginners! https://coder-coder.com/responsive/\n\n💻 Become a full-stack web dev with Zero to Mastery: https://academy.zerotomastery.io/a/aff_338z7xnj/external?affcode=441520_ti97uk6b\n\n\nSUPPORT THE CHANNEL\n⭐ Join channel members and get perks: https://www.youtube.com/channel/UCzNf0liwUzMN6_pixbQlMhQ/join\n👏🏽 Hit the THANKS button in any video!\n🎨 Get my VS Code theme: https://marketplace.visualstudio.com/items?itemName=CoderCoder.codercoder-dark-theme\n\n\nWANT TO LEARN WEB DEV?\nCheck out my courses:\n🌟 Responsive Design for Beginners: https://coder-coder.com/responsive/\n🌟 Gulp for Beginners: https://coder-coder.com/gulp-course/\n\n\nRECOMMENDATIONS\n⌨ My keyboard-- get 10% off with code THECODERCODER -- https://vissles.com/?ref=mu96kxst5w\n💻  Other gear -- https://www.amazon.com/shop/thecodercoder?listId=1LMCKGUTMVYXD\n📚 My Favorite Books -- https://coder-coder.com/best-web-development-books/\n📺 My Favorite Courses -- https://coder-coder.com/best-web-development-courses/\n\n\n🔽 FOLLOW CODER CODER\nBlog -- https://coder-coder.com/ \nTwitter -- https://twitter.com/thecodercoder\nInstagram --  https://www.instagram.com/thecodercoder\n\n\n#webdevelopment #coding #programming",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/GnD7IQ48IQE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/GnD7IQ48IQE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/GnD7IQ48IQE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/GnD7IQ48IQE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/GnD7IQ48IQE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Coder Coder",
+      "tags": [
+        "web development",
+        "learn to code",
+        "coding"
+      ],
+      "categoryId": "28",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Coding motivation: slow and steady wins the race 🐢🏁",
+        "description": "🔥 My course: Responsive Design for Beginners! https://coder-coder.com/responsive/\n\n💻 Become a full-stack web dev with Zero to Mastery: https://academy.zerotomastery.io/a/aff_338z7xnj/external?affcode=441520_ti97uk6b\n\n\nSUPPORT THE CHANNEL\n⭐ Join channel members and get perks: https://www.youtube.com/channel/UCzNf0liwUzMN6_pixbQlMhQ/join\n👏🏽 Hit the THANKS button in any video!\n🎨 Get my VS Code theme: https://marketplace.visualstudio.com/items?itemName=CoderCoder.codercoder-dark-theme\n\n\nWANT TO LEARN WEB DEV?\nCheck out my courses:\n🌟 Responsive Design for Beginners: https://coder-coder.com/responsive/\n🌟 Gulp for Beginners: https://coder-coder.com/gulp-course/\n\n\nRECOMMENDATIONS\n⌨ My keyboard-- get 10% off with code THECODERCODER -- https://vissles.com/?ref=mu96kxst5w\n💻  Other gear -- https://www.amazon.com/shop/thecodercoder?listId=1LMCKGUTMVYXD\n📚 My Favorite Books -- https://coder-coder.com/best-web-development-books/\n📺 My Favorite Courses -- https://coder-coder.com/best-web-development-courses/\n\n\n🔽 FOLLOW CODER CODER\nBlog -- https://coder-coder.com/ \nTwitter -- https://twitter.com/thecodercoder\nInstagram --  https://www.instagram.com/thecodercoder\n\n\n#webdevelopment #coding #programming"
+      },
+      "defaultAudioLanguage": "en-US"
+    },
+    "contentDetails": {
+      "duration": "PT30S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": true,
       "contentRating": {},
       "projection": "rectangular"
     }

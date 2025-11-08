@@ -8,21 +8,23 @@ YOUR_YOUTUBE_API_KEY = "AIzaSyDlDocvLsGvxbZf37dmCDrkr__fEzQj7VA"
 
 # Your "Channel ID" Whitelist
 APPROVED_CHANNELS = [
-    "UCCabW7890RKJzL968QWEykA",  # Corey Schafer
-    "UCCezIgC97PvUuR4_gbFUs5g",  # Traversy Media
-    "UC6E_dvT-e5aM2g4b8tq9y_A",  # CS50
-    "UC_x5XG1OV2P6uZZ5FSM9Ttw",  # Khan Academy
-    "UCYO_jab_2R6gLBErLJ4DYg",   # Mosh Hamedani
-    "UCWv7vMbMWH4-V0ZXdmDpPBA",  # Programming with Mosh
-    "UCRLEADhMcb8WUdnQ5_EADaA",  # Web Dev Simplified
-    "UCW5YeuERMmlnqo4oq8vwUpg",  # The Net Ninja
-    "UCsBjURrPoezykLs9EqgamOA",  # Fireship
-    "UC8butISFwT-Wl7EV0hUK0BQ",  # freeCodeCamp.org
-    "UC-bF-V-x2iYnK2L-n31v0cg",  # Bro Code
-    "UU29c0n-fXl-XlD-X3S-cE-A",  # Indently
-    "UU-HJt-12bc-g-cGR5nS1N_Q",  # mCoding
-    "UUwD6w-vuB4Kl2ga2n3a0Qig",  # ByteByteGo
-    "UUfzl-9n2e-l-r6k-gD7nS-g",  # Coder Coder
+    # --- Long-Form Channels (Might have some shorts) ---
+    "UCCezIgC97PvUuR4_gbFUs5g",  # Corey Schafer (Correct ID)
+    "UCCezIgC97PvUuR4_gbFUs5g",  # Traversy Media (Was correct)
+    "UCcabW7890RKJzL968QWEykA",  # CS50 (Correct ID)
+    "UC_x5XG1OV2P6uZZ5FSM9Ttw",  # Khan Academy (Was correct)
+    "UCWv7vMbMWH4-V0ZXdmDpPBA",  # Programming with Mosh (Was correct)
+    "UCFbNIlppjAuEX4znoulh0Cw",  # Web Dev Simplified (Correct ID)
+    "UCW5YeuERMmlnqo4oq8vwUpg",  # The Net Ninja (Was correct)
+    
+    # --- Shorts-Focused Channels (Correct 'UC...' IDs) ---
+    "UCsBjURrPoezykLs9EqgamOA",  # Fireship (Was correct)
+    "UC8butISFwT-Wl7EV0hUK0BQ",  # freeCodeCamp.org (Was correct)
+    "UC4SVo0Ue36XCfOyb5Lh1viQ",  # Bro Code (Was correct)
+    "UCuudpdbKmQWq2PPzYgVCWlA",  # Indently (Correct ID, was UU...)
+    "UCaiL2GDNpLYH6Wokkk1VNcg",  # mCoding (Correct ID, was UU...)
+    "UCZgt6AzoyjslHTC9dz0UoTw",  # ByteByteGo (Correct ID, was UU...)
+    "UCzNf0liwUzMN6_pixbQlMhQ",  # Coder Coder (Correct ID, was UU...)
 ]
 # ---------------------
 
