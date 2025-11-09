@@ -223,7 +223,7 @@
         .search-results {
             position: fixed;
             top: 56px;
-            right: 20px;
+            left: 20px;
             z-index: 151;
             width: 320px;
             max-height: 320px;
@@ -310,7 +310,7 @@
                 console.error('Failed to load shorts_db.json', err);
                 // fallback: keep existing small dataset if any (no-op)
             });
-        async function searchAPI(cleaned, raw) {
+        async function searchAPI(queries, coun) {
             let arr = [];
             while (arr.length<currentVideoIndex){
                 arr.push(arr[arr.length]);
@@ -323,9 +323,8 @@
                         'Content-Type': 'application/json'
                     },
                     body: JSON.stringify({
-                        query: cleaned,
-                        rawQuery: raw,
-                        index: currentVideoIndex
+                        query: queries,
+                        count: coun
                     })
                 });
                 const response_data = await response.json();
@@ -544,7 +543,11 @@
                 // otherwise, allow the previous "snap" behavior: move between items
                 isScrolling = true;
                 if (e.deltaY > 0 && currentVideoIndex < displayed.length - 1) {
+                    if (currentVideoIndex<allData.length){
+                        searchAPI([], 5);
+                    }
                     scrollToVideo(currentVideoIndex + 1, currentVideoIndex);
+                    
                 } else if (e.deltaY < 0 && currentVideoIndex > 0, currentVideoIndex) {
                     scrollToVideo(currentVideoIndex - 1, currentVideoIndex);
                 }
@@ -699,7 +702,7 @@
         if (input.value !="") {
             performSearch(input.value);
             resultsPanel.style.display = 'none';
-            searchAPI(debouncedSearch(input.value), input.value)
+            searchAPI(debouncedSearch(input.value).push(input.value), 5)
         }
     });
 
