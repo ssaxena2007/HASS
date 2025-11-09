@@ -28,3 +28,4 @@ features such as custom curated channel lists.
 Base html and JavaScript was used for the frontend.
 
 
+Hosted the API server on **Vultr** for cloud computing by running it on fastapi on arch linux.
