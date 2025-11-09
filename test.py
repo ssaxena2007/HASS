@@ -17,6 +17,7 @@ async def lifespan(app: FastAPI):
         with open(SHORTS_DB_FILE, "r", encoding="utf-8") as f:
             global SHORTS_DATABASE, SHORTS_DB_SIZE
             SHORTS_DATABASE = json.load(f)
+            random.shuffle(SHORTS_DATABASE)
             SHORTS_DB_SIZE = len(SHORTS_DATABASE)
         print(f"✅ Successfully loaded {len(SHORTS_DATABASE)} categorized shorts from {SHORTS_DB_FILE}")
     except FileNotFoundError:
@@ -54,6 +55,7 @@ def search_shorts(query: str="", count: int =10):
     if count == -1:
         count = SHORTS_DB_SIZE
     if not SHORTS_DATABASE:
+        print("FAILED", SHORTS_DATABASE)
         return {"results": []} # Return empty list if DB isn't loaded
         
     query_lower = query.lower()
@@ -80,6 +82,7 @@ def search_shorts(query: str="", count: int =10):
     print(f"Search for '{query}' found {len(filtered_results)} results.")
             
     # Return the *FILTERED* list, not the whole database
+    shuffle()
     return {"results": filtered_results, "time_taken": time.time()-start}
 
 
@@ -87,8 +90,7 @@ def search_shorts(query: str="", count: int =10):
 def shuffle():
     global SHORTS_DATABASE
     start = time.time()
-    print(start)
-    SHORTS_DATABASE = random.shuffle(SHORTS_DATABASE)
+    random.shuffle(SHORTS_DATABASE)
     return (time.time()-start, time.time(), start)
 # --- Main entry point to run the server ---
 if __name__ == "__main__":
