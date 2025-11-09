@@ -45,36 +45,35 @@ app.add_middleware(
 
 # --- API Endpoint (Smart, Fast, Free Search) ---
 @app.get("/api/search")
-def search_shorts(query: str="", count: int =10):
+def search_shorts(query: str="[]", count: int =10):
     """
     Searches the in-memory database by title, category, AND keywords.
     This search is fast and costs 0 API quota.
     """
     start = time.time()
-
+    query = eval(query)
     if count == -1:
         count = SHORTS_DB_SIZE
     if not SHORTS_DATABASE:
         print("FAILED", SHORTS_DATABASE)
         return {"results": []} # Return empty list if DB isn't loaded
-        
-    query_lower = query.lower()
-    
+     
     # --- THIS IS THE CORRECTED LOGIC ---
     filtered_results = []
     
-    if not query_lower: # If search is empty, return everything
+    if len(query): # If search is empty, return everything
         filtered_results = [random.choice(SHORTS_DATABASE) for _ in range(count)]
     else:
+        query_lower = [q.lower() for q in query]
         index = 0
         while index < SHORTS_DB_SIZE and len(filtered_results) < count:
             title_lower = SHORTS_DATABASE[index]["snippet"]["title"].lower()
             category_lower = SHORTS_DATABASE[index].get("category", "Other").lower()
             keywords_lower = " ".join(SHORTS_DATABASE[index].get("keywords", [])).lower()
-
-            if (query_lower in title_lower or 
-                query_lower == category_lower or 
-                query_lower in keywords_lower):
+            q_low = random.choice(query_lower)
+            if (q_low in title_lower or 
+                q_low == category_lower or 
+                q_low in keywords_lower):
                 
                 filtered_results.append(SHORTS_DATABASE[index])
             index+=1
