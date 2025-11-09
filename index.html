@@ -288,7 +288,7 @@
         let displayed = [];        // currently rendered items (array of objects)
         let nextIndex = 0;         // next index in allData to take from (items not yet displayed)
         const INITIAL_COUNT = 6;   // number of items to render initially
-        let currentVideoIndex = 0;
+        let currentVideoIndex = -1;
         let isScrolling = false;
         let touchStartY = 0;
 
@@ -297,7 +297,7 @@
         let scrollTimer = null;
 
         // fetch the JSON database and initialize
-        /*fetch('./testdata/shorts_db.json')
+        /*fetch('./shorts_db.json')
             .then(r => r.json())
             .then(json => {
                 allData = json;
@@ -310,7 +310,6 @@
                 console.error('Failed to load shorts_db.json', err);
                 // fallback: keep existing small dataset if any (no-op)
             });*/
-        searchAPI([],6);
         async function searchAPI(queries, coun) {
             let arr = [];
             while (arr.length<currentVideoIndex){
@@ -321,20 +320,24 @@
                 let vv = '\"['+queries.toString()+ ']\"';
                 const response = await fetch('http://155.138.225.71:8000/api/search?query='+ vv +`&count=${coun}`);
                 const response_data = await response.json();
-                arr.join(response_data);
-                arr.forEach(data => {
+                console.log(response_data.results);
+                arr.push(...response_data.results);
+                allData = arr;
+                allData.forEach(data => {
                     createShortItem(data)
                 });
-                allData = arr;
+                console.log(allData);
                 render();
             } catch (err) {
                 console.error('Search API error:', err);
                 return [];
             }
-
-
-            scrollToVideo(currentVideoIndex+1)
         }
+        searchAPI([],6);
+
+        displayed = allData.slice(0, INITIAL_COUNT);
+        nextIndex = displayed.length;
+        scrollToVideo(currentVideoIndex);
         // create item markup (unchanged structure but now accepts full item object)
         function createShortItem(short) {
             const id = short.id;
