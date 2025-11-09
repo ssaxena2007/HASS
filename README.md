@@ -12,10 +12,10 @@ Instead of relying on live, expensive API calls, this app's backend is a three-s
 
 Here is the pipeline:
 
-Build Database (build_database.py)
+Build Database (main.py)
 This Python script uses the YouTube Data API to fetch the entire video history from a curated whitelist of 15+ educational channels. It uses pagination to process all 19,000+ videos, then performs a duration check on each one to accurately filter the list down to 1,800+ actual shorts (60 seconds or less). The final list is saved as shorts_db.json.
 
-Categorize Database (categorize_database.py)
+Categorize Database (categorize_db.py)
 This second script reads the shorts_db.json file. It sends the 1,800+ shorts to the Gemini API in batches to enrich the data. It calls the AI twice for each batch: once to assign a specific category (e.g., "Python", "System Design") and a second time to extract 3-5 relevant keywords from the title. The final, enriched list is saved as categorized_db.json.
 
 Serve API (test.py)
