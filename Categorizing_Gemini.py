@@ -1,6 +1,6 @@
 import json
 import time     # To add delays for the API
-import httpx    # You will need to run: pip install httpx
+import httpx    
 
 # --- Configuration ---
 YOUR_GEMINI_API_KEY = "AIzaSyAgfRz6Mx5Lv1liZmQbNEe4-FsL5NWdOLY" 
@@ -20,11 +20,11 @@ def categorize_database_with_gemini():
             shorts_list = json.load(f)
         print(f"  Loaded {len(shorts_list)} shorts from {INPUT_DB_FILE}")
     except FileNotFoundError:
-        print(f"❌ ERROR: Input file '{INPUT_DB_FILE}' not found.")
+        print(f"ERROR: Input file '{INPUT_DB_FILE}' not found.")
         print("Please run `python build_database.py` first.")
         return
     except Exception as e:
-        print(f"❌ ERROR: Could not load {INPUT_DB_FILE}: {e}")
+        print(f"ERROR: Could not load {INPUT_DB_FILE}: {e}")
         return
 
     # This is the list of categories we will force Gemini to use.
@@ -56,10 +56,10 @@ def categorize_database_with_gemini():
     gemini_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key={YOUR_GEMINI_API_KEY}"
     
     enriched_videos = []
-    batch_size = 50 # Send 50 videos to Gemini at a time
+    batch_size = 50 # Sends 50 videos to Gemini at a time to avoid reaching token limits for Input/Output
     
     client = httpx.Client()
-    
+    #Going through the shorts list in batches of (maximum) 50 videos each
     for i in range(0, len(shorts_list), batch_size):
         batch = shorts_list[i : i + batch_size]
         print(f"  Processing Batch {int(i/batch_size) + 1} / {int(len(shorts_list)/batch_size) + 1}...")
@@ -98,7 +98,7 @@ def categorize_database_with_gemini():
             print(f"    !!! ERROR on keywords: {e}. Assigning empty list.")
             keywords_map = {}
 
-        # 3. Merge results
+        # 3. Merging both categories and keywords results we got from gemini api and appending the batch of videos to enriched_videos
         for video in batch:
             video_id = video["id"]
             video["category"] = categories_map.get(video_id, "Other")
@@ -111,11 +111,11 @@ def categorize_database_with_gemini():
 
     client.close()
     
-    # 5. Save the final categorized list
+    # 5. Save the final categorized list, using write to prevent duplicate videos when this script is ran more than once
     with open(OUTPUT_DB_FILE, "w", encoding="utf-8") as f:
         json.dump(enriched_videos, f, indent=2, ensure_ascii=False)
         
-    print(f"\n✅ SUCCESS! Enriched database saved to {OUTPUT_DB_FILE}")
+    print(f"\nSUCCESS! Enriched database saved to {OUTPUT_DB_FILE}")
     print(f"Total shorts enriched: {len(enriched_videos)}")
 
 if __name__ == "__main__":
