@@ -40,11 +40,12 @@ app = FastAPI(lifespan=lifespan)
 origins = ["http://155.138.225.71:8000"]
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 """@app.get("/", response_class=HTMLResponse)
 async def sea():
     with open("index.html") as f:
