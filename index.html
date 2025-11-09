@@ -319,7 +319,7 @@
             // Example API call
             try {
                 let vv = '\"['+queries.toString()+ ']\"';
-                const response = await fetch('./api/search?query='+ vv +`&count=${coun}`);
+                const response = await fetch('http://155.138.225.71:8000/api/search?query='+ vv +`&count=${coun}`);
                 const response_data = await response.json();
                 arr.join(response_data);
                 arr.forEach(data => {
