@@ -156,6 +156,10 @@
         let isScrolling = false;
         let touchStartY = 0;
 
+        // Add scroll state tracking
+        let isUserScrolling = false;
+        let scrollTimer = null;
+
         // fetch the JSON database and initialize
         fetch('./testdata/shorts_db.json')
             .then(r => r.json())
@@ -182,11 +186,11 @@
             // Two data-src values:
             // - data-src-play sets autoplay=1 (used for the currently-visible short)
             // - data-src-preload loads the iframe without autoplay (used to preload next short)
-            const playUrl = `https://www.youtube.com/embed/${id}?rel=0&controls=0&modestbranding=1&autoplay=1&mute=1&playsinline=1&loop=1&playlist=${id}`;
+            const playUrl = `https://www.youtube.com/embed/${id}?rel=0&controls=0&modestbranding=1&autoplay=1&playsinline=1&loop=1&playlist=${id}`;
             const preloadUrl = `https://www.youtube.com/embed/${id}?rel=0&controls=0&modestbranding=1&playsinline=1&loop=1&playlist=${id}`;
 
             return `
-                <div class="short-item">
+                <div class="short-item" id="${id}">
                     <div class="video-wrapper">
                         <iframe
                             class="short-iframe"
@@ -260,7 +264,8 @@
                     const thumb = wrapper?.querySelector('img.thumb');
                     const index = Array.from(iframes).indexOf(iframe);
 
-                    if (entry.isIntersecting && entry.intersectionRatio > 0.6) {
+                    // Only play if visible AND not scrolling
+                    if (entry.isIntersecting && entry.intersectionRatio > 0.6 && !isUserScrolling) {
                         // activate this short: set play src
                         const playSrc = iframe.dataset.srcPlay;
                         if (playSrc && iframe.src !== playSrc) {
@@ -272,7 +277,7 @@
                             iframe.addEventListener('load', onLoad);
                         }
 
-                        // preload the next short (one ahead) using preload src (no autoplay)
+                        // Only preload next if not scrolling
                         const nextIndex = index + 1;
                         if (nextIndex < iframes.length) {
                             const nextIframe = iframes[nextIndex];
@@ -294,15 +299,10 @@
                         const dots = scrollIndicator.querySelectorAll('.indicator-dot');
                         dots.forEach((dot, i) => dot.classList.toggle('active', i === index));
                     } else {
-                        // If this iframe is neither the active one nor the preloaded one, unload it
+                        // Pause/clear src when scrolling or not visible
                         const isPreloaded = (index === preloadedIndex);
                         const isActive = (index === currentVideoIndex);
-                        if (!isActive && !isPreloaded) {
-                            if (iframe.src) iframe.src = '';
-                            if (thumb) thumb.style.opacity = '1';
-                        }
-                        // if this was the preloaded iframe but it's no longer the preloadedIndex, clear it
-                        if (isPreloaded && index !== preloadedIndex) {
+                        if (isUserScrolling || (!isActive && !isPreloaded)) {
                             if (iframe.src) iframe.src = '';
                             if (thumb) thumb.style.opacity = '1';
                         }
