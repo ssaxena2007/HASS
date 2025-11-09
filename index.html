@@ -136,9 +136,84 @@
             opacity: 1;
             pointer-events: none;
         }
+
+        /* login overlay styles (added) */
+        .login-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.95);
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            flex-direction: column;
+            gap: 16px;
+            padding: 24px;
+            text-align: center;
+        }
+        .login-overlay.hidden { display: none; }
+        .login-box {
+            max-width: 420px;
+            width: 100%;
+        }
+        .login-title { font-size: 22px; margin-bottom: 8px; }
+        .login-desc { color: #ccc; margin-bottom: 20px; }
+        .auth-btn {
+            background: #ff3b3b;
+            color: white;
+            border: none;
+            padding: 12px 18px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .auth-actions { display:flex; gap:12px; justify-content:center; margin-top:8px; }
+
+        /* Corner logout button */
+        .corner-logout {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 100;
+            padding: 8px 16px;
+            background: rgba(0, 0, 0, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.2s ease;
+        }
+        .corner-logout:hover {
+            background: rgba(0, 0, 0, 0.8);
+            border-color: rgba(255, 255, 255, 0.4);
+        }
     </style>
+    <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
 </head>
 <body>
+    <!-- Corner logout button -->
+    <button id="cornerLogout" class="corner-logout" style="display: none" onclick="logout()">Log out</button>
+
+    <!-- login overlay: covers entire app until authenticated -->
+    <div id="loginOverlay" class="login-overlay">
+        <div class="login-box">
+            <div class="login-title">Welcome — please sign in</div>
+            <div class="login-desc">Sign in to continue to the Shorts feed.</div>
+            <div id="authButtons">
+                <button id="loginBtn" class="auth-btn" onclick="login()">Log in</button>
+            </div>
+            <div id="userInfo" style="display:none; margin-top:14px;">
+                <div id="userName" style="font-weight:600;"></div>
+                <div class="auth-actions">
+                    <button id="logoutBtn" class="auth-btn" style="background:#444;">Log out</button>
+                    <button id="continueBtn" class="auth-btn" style="background:#1e90ff;">Continue</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="shorts-container" id="shortsContainer">
         <!-- Shorts will be inserted here by JavaScript -->
     </div>
@@ -148,6 +223,7 @@
         // --- summary: load full DB, render a sliding window, prepend older items when user scrolls up at top ---
 
         // local state
+        let USER_ID = null;
         let allData = [];          // full JSON from testdata
         let displayed = [];        // currently rendered items (array of objects)
         let nextIndex = 0;         // next index in allData to take from (items not yet displayed)
@@ -264,8 +340,9 @@
                     const thumb = wrapper?.querySelector('img.thumb');
                     const index = Array.from(iframes).indexOf(iframe);
 
-                    // Play immediately when visible and not scrolling
-                    if (entry.isIntersecting && entry.intersectionRatio > 0.6) {
+                    // Only play if login overlay is hidden and video is visible
+                    const isLoggedIn = loginOverlay.classList.contains('hidden');
+                    if (entry.isIntersecting && entry.intersectionRatio > 0.6 && isLoggedIn) {
                         // Play the current video
                         const playSrc = iframe.dataset.srcPlay;
                         if (playSrc && iframe.src !== playSrc) {
@@ -401,8 +478,46 @@
             render();
         };
 
+        // --- Auth0 integration (added) ---
+        
+        const loginOverlay = document.getElementById('loginOverlay');
+        const loginBtn = document.getElementById('loginBtn');
+        const logoutBtn = document.getElementById('logoutBtn');
+        const continueBtn = document.getElementById('continueBtn');
+        const userInfo = document.getElementById('userInfo');
+        const userName = document.getElementById('userName');
+
+        function hideOverlayAndStart() {
+            loginOverlay.classList.add('hidden');
+            // Show the corner logout button
+            document.getElementById('cornerLogout').style.display = 'block';
+            // after auth, ensure feed is visible and start playing the first video
+            // wait a tick to allow any layout changes
+            setTimeout(() => {
+                // call existing helper to scroll to first visible video
+                try { scrollToVideo(currentVideoIndex || 0, -1); }
+                catch (e) { /* ignore if function not yet present */ }
+            }, 120);
+        }
+
+        // Stop all videos when logging out
+        function stopAllVideos() {
+            const iframes = document.querySelectorAll('iframe.short-iframe');
+            iframes.forEach(iframe => {
+                if (iframe.src) {
+                    iframe.src = '';
+                    const wrapper = iframe.closest('.video-wrapper');
+                    const thumb = wrapper?.querySelector('img.thumb');
+                    if (thumb) thumb.style.opacity = '1';
+                }
+            });
+        }
         // initial empty render until data loads
         // (render called after fetch completes)
-    </script>
+</script>
+
+  <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+    <script src="public/js/app.js"></script>
+
 </body>
 </html>
