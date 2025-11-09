@@ -1,0 +1,10 @@
+CoreySchafer|Corey Schafer - Python tutorials
+TechWithTim|Tech With Tim - Programming tutorials and projects
+freeCodeCamp|freeCodeCamp.org - Full-length tutorials and shorts
+3Blue1Brown|3Blue1Brown - Math visualizations
+TheNetNinja|The Net Ninja - Web dev tutorials
+python|Python tutorials and quick tips
+javascript|JavaScript tips and short explanations
+react|React quick lessons and patterns
+sql|SQL basics and queries
+machine learning|Intro to machine learning short clips
