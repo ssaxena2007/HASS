@@ -1,35 +1,39 @@
+'''Project Overview
+
+This Python utility script is designed to build a curated database of recent YouTube Shorts from a pre-selected list of high-quality educational and programming channels.
+Instead of relying on often unreliable titles or tags, this tool uses a duration-based filtering process with the YouTube Data API to ensure 100% accuracy: it identifies videos under 61 seconds in length.
+The output is a structured JSON file containing the snippet and content details for all identified shorts.'''
+
 import requests
 import json
-import isodate  # You may need to run: pip install isodate
+import isodate
 
 # --- Configuration ---
-# Paste your YouTube API key here
+# This is where i paste my YouTube API key
 YOUR_YOUTUBE_API_KEY = "AIzaSyDlDocvLsGvxbZf37dmCDrkr__fEzQj7VA"
 
-# Your "Channel ID" Whitelist
+#This is the list of approved channels from which all the shorts are being pulled from
 APPROVED_CHANNELS = [
-    # --- Long-Form Channels (Might have some shorts) ---
-    "UCCezIgC97PvUuR4_gbFUs5g",  # Corey Schafer (Correct ID)
-    "UC29ju8bIPH5as8OGnQzwJyA",  # Traversy Media (Was correct)
-    "UCcabW7890RKJzL968QWEykA",  # CS50 (Correct ID)
-    "UC_x5XG1OV2P6uZZ5FSM9Ttw",  # Khan Academy (Was correct)
-    "UCWv7vMbMWH4-V0ZXdmDpPBA",  # Programming with Mosh (Was correct)
-    "UCFbNIlppjAuEX4znoulh0Cw",  # Web Dev Simplified (Correct ID)
-    "UCW5YeuERMmlnqo4oq8vwUpg",  # The Net Ninja (Was correct)
-    
-    # --- Shorts-Focused Channels (Correct 'UC...' IDs) ---
-    "UCsBjURrPoezykLs9EqgamOA",  # Fireship (Was correct)
-    "UC8butISFwT-Wl7EV0hUK0BQ",  # freeCodeCamp.org (Was correct)
-    "UC4SVo0Ue36XCfOyb5Lh1viQ",  # Bro Code (Was correct)
-    "UCuudpdbKmQWq2PPzYgVCWlA",  # Indently (Correct ID, was UU...)
-    "UCaiL2GDNpLYH6Wokkk1VNcg",  # mCoding (Correct ID, was UU...)
-    "UCZgt6AzoyjslHTC9dz0UoTw",  # ByteByteGo (Correct ID, was UU...)
-    "UCzNf0liwUzMN6_pixbQlMhQ",  # Coder Coder (Correct ID, was UU...)
+    "UCCezIgC97PvUuR4_gbFUs5g",  # Corey Schafer
+    "UC29ju8bIPH5as8OGnQzwJyA",  # Traversy Media
+    "UCcabW7890RKJzL968QWEykA",  # CS50
+    "UC_x5XG1OV2P6uZZ5FSM9Ttw",  # Khan Academy
+    "UCWv7vMbMWH4-V0ZXdmDpPBA",  # Programming with Mosh
+    "UCFbNIlppjAuEX4znoulh0Cw",  # Web Dev Simplified
+    "UCW5YeuERMmlnqo4oq8vwUpg",  # The Net Ninja
+    "UCsBjURrPoezykLs9EqgamOA",  # Fireship
+    "UC8butISFwT-Wl7EV0hUK0BQ",  # freeCodeCamp.org
+    "UC4SVo0Ue36XCfOyb5Lh1viQ",  # Bro Code 
+    "UCuudpdbKmQWq2PPzYgVCWlA",  # Indently 
+    "UCaiL2GDNpLYH6Wokkk1VNcg",  # mCoding 
+    "UCZgt6AzoyjslHTC9dz0UoTw",  # ByteByteGo 
+    "UCzNf0liwUzMN6_pixbQlMhQ",  # Coder Coder 
 ]
-# ---------------------
+
+#Converts a YouTube ISO 8601 duration string to total seconds.
 
 def parse_duration(duration_str):
-    """Converts a YouTube ISO 8601 duration string to total seconds."""
+
     try:
         return isodate.parse_duration(duration_str).total_seconds()
     except Exception:
@@ -50,7 +54,7 @@ def build_shorts_database():
 
     # --- STEP 1: Get ALL video IDs from each channel ---
     for channel_id in APPROVED_CHANNELS:
-        # Use set() to avoid processing the same ID twice (like Traversy Media)
+        #Only using this to prevent grabbing shorts from the same channel twice in the event that a channel_id is repeated in approved channels
         unique_channels = set(APPROVED_CHANNELS)
     
     for channel_id in unique_channels:
@@ -70,7 +74,7 @@ def build_shorts_database():
             print(f"!!! ERROR finding uploads for {channel_id}: {e}. Skipping.")
             continue
 
-        # 1b: Get ALL videos from that 'uploads' playlist using pagination
+        # 1b: Get ALL videos from that 'uploads' playlist using pagination (we need to do this because with a single query we can only get a maximum of 50 videos)
         next_page_token = None
         page_count = 1
         

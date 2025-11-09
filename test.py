@@ -1,4 +1,4 @@
-import json, random, time
+import json, random, time, random, time
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
@@ -8,6 +8,7 @@ from contextlib import asynccontextmanager
 SHORTS_DB_FILE = "categorized_db.json"
 SHORTS_DATABASE = []
 SHORTS_DB_SIZE = -1
+SHORTS_DB_SIZE = -1
 
 # --- Load Database on Startup ---
 @asynccontextmanager
@@ -15,6 +16,7 @@ async def lifespan(app: FastAPI):
     print("Server startup: Loading database into memory...")
     try:
         with open(SHORTS_DB_FILE, "r", encoding="utf-8") as f:
+            global SHORTS_DATABASE, SHORTS_DB_SIZE
             global SHORTS_DATABASE, SHORTS_DB_SIZE
             SHORTS_DATABASE = json.load(f)
             random.shuffle(SHORTS_DATABASE)
