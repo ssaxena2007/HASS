@@ -310,34 +310,46 @@
                 console.error('Failed to load shorts_db.json', err);
                 // fallback: keep existing small dataset if any (no-op)
             });*/
-        async function searchAPI(queries, coun) {
-            let arr = [];
-            while (arr.length<currentVideoIndex){
-                arr.push(arr[arr.length]);
-            }
-            // Example API call
+        // Initial load
+        searchAPI([], INITIAL_COUNT);
+
+        async function searchAPI(queries, count) {
             try {
+                // Normalize queries to array and encode
+                const queryArr = Array.isArray(queries) ? queries : [queries].filter(Boolean);
                 let vv = '\"['+queries.toString()+ ']\"';
-                const response = await fetch('http://155.138.225.71:8000/api/search?query='+ vv +`&count=${coun}`);
-                const response_data = await response.json();
-                console.log(response_data.results);
-                arr.push(...response_data.results);
-                allData = arr;
-                allData.forEach(data => {
-                    createShortItem(data)
-                });
-                console.log(allData);
+                
+                // Fetch new videos
+                const response = await fetch('http://155.138.225.71:8000/api/search?query='+ vv +`&count=${count}`);
+                const data = await response.json();
+                
+                if (!data.results || !Array.isArray(data.results)) {
+                    console.error('Invalid response format', data);
+                    return;
+                }
+
+                // For initial load or new search
+                if (queries.length === 0 || currentVideoIndex === -1) {
+                    allData = data.results;
+                    displayed = allData.slice(0, count);
+                    nextIndex = displayed.length;
+                    currentVideoIndex = 0;
+                } else {
+                    // For loading more: append new results
+                    allData = [...allData, ...data.results];
+                    displayed = [...displayed, ...data.results];
+                    nextIndex = displayed.length;
+                }
+
+                // Render and scroll if needed
                 render();
+                if (queries.length > 0) { // If this was a search
+                    scrollToVideo(0); // Go to first result
+                }
             } catch (err) {
                 console.error('Search API error:', err);
-                return [];
             }
         }
-        searchAPI([],6);
-
-        displayed = allData.slice(0, INITIAL_COUNT);
-        nextIndex = displayed.length;
-        scrollToVideo(currentVideoIndex);
         // create item markup (unchanged structure but now accepts full item object)
         function createShortItem(short) {
             const id = short.id;
@@ -696,10 +708,11 @@
 
     // bind events
     btn.addEventListener('click', () => {
-        if (input.value !="") {
-            performSearch(input.value);
+        const query = input.value.trim();
+        if (query) {
+            performSearch(query);
             resultsPanel.style.display = 'none';
-            searchAPI(debouncedSearch(input.value).push(input.value), 5)
+            searchAPI([query], 5); // Pass query as array
         }
     });
 
@@ -720,7 +733,15 @@
     });
 
     input.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter') { e.preventDefault(); performSearch(input.value); }
+        if (e.key === 'Enter') { 
+            e.preventDefault(); 
+            const query = input.value.trim();
+            if (query) {
+                performSearch(query);
+                resultsPanel.style.display = 'none';
+                searchAPI([query], 5);
+            }
+        }
         if (e.key === 'Escape') { resultsPanel.style.display = 'none'; }
     });
 
