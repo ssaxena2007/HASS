@@ -1,4 +1,4 @@
-import json
+import json, random, time
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
@@ -7,6 +7,7 @@ from contextlib import asynccontextmanager
 # --- Database File ---
 SHORTS_DB_FILE = "categorized_db.json"
 SHORTS_DATABASE = []
+SHORTS_DB_SIZE = -1
 
 # --- Load Database on Startup ---
 @asynccontextmanager
@@ -14,8 +15,9 @@ async def lifespan(app: FastAPI):
     print("Server startup: Loading database into memory...")
     try:
         with open(SHORTS_DB_FILE, "r", encoding="utf-8") as f:
-            global SHORTS_DATABASE
+            global SHORTS_DATABASE, SHORTS_DB_SIZE
             SHORTS_DATABASE = json.load(f)
+            SHORTS_DB_SIZE = len(SHORTS_DATABASE)
         print(f"✅ Successfully loaded {len(SHORTS_DATABASE)} categorized shorts from {SHORTS_DB_FILE}")
     except FileNotFoundError:
         print(f"❌ ERROR: Database file '{SHORTS_DB_FILE}' not found.")
@@ -42,39 +44,52 @@ app.add_middleware(
 
 # --- API Endpoint (Smart, Fast, Free Search) ---
 @app.get("/api/search")
-def search_shorts(query: str):
+def search_shorts(query: str="", count: int =10):
     """
     Searches the in-memory database by title, category, AND keywords.
     This search is fast and costs 0 API quota.
     """
+    start = time.time()
+
+    if count == -1:
+        count = SHORTS_DB_SIZE
     if not SHORTS_DATABASE:
         return {"results": []} # Return empty list if DB isn't loaded
-
+        
     query_lower = query.lower()
     
     # --- THIS IS THE CORRECTED LOGIC ---
     filtered_results = []
     
     if not query_lower: # If search is empty, return everything
-        filtered_results = SHORTS_DATABASE
+        filtered_results = [random.choice(SHORTS_DATABASE) for _ in range(count)]
     else:
-        for video in SHORTS_DATABASE:
-            title_lower = video["snippet"]["title"].lower()
-            category_lower = video.get("category", "Other").lower()
-            keywords_lower = " ".join(video.get("keywords", [])).lower()
+        index = 0
+        while index < SHORTS_DB_SIZE and len(filtered_results) < count:
+            title_lower = SHORTS_DATABASE[index]["snippet"]["title"].lower()
+            category_lower = SHORTS_DATABASE[index].get("category", "Other").lower()
+            keywords_lower = " ".join(SHORTS_DATABASE[index].get("keywords", [])).lower()
 
             if (query_lower in title_lower or 
                 query_lower == category_lower or 
                 query_lower in keywords_lower):
                 
-                filtered_results.append(video)
-    
+                filtered_results.append(SHORTS_DATABASE[index])
+            index+=1
     # --- HERE IS YOUR NEW FEATURE (Backend Log) ---
     print(f"Search for '{query}' found {len(filtered_results)} results.")
             
     # Return the *FILTERED* list, not the whole database
-    return {"results": filtered_results}
+    return {"results": filtered_results, "time_taken": time.time()-start}
 
+
+@app.get("/api/randomize")
+def shuffle():
+    global SHORTS_DATABASE
+    start = time.time()
+    print(start)
+    SHORTS_DATABASE = random.shuffle(SHORTS_DATABASE)
+    return (time.time()-start, time.time(), start)
 # --- Main entry point to run the server ---
 if __name__ == "__main__":
     uvicorn.run(app, host="127.0.0.1", port=8000)
