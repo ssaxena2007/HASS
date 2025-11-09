@@ -1,5 +1,6 @@
 import json, random, time, random, time
 from fastapi import FastAPI
+from fastapi.responses import HTMLResponse
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 from contextlib import asynccontextmanager
@@ -39,11 +40,26 @@ app = FastAPI(lifespan=lifespan)
 origins = ["http://155.138.225.71:8000"]
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+@app.get("/", response_class=HTMLResponse)
+async def sea():
+    with open("index.html") as f:
+        return f.read()
+@app.get("/public/js/app.js", response_class=HTMLResponse)
+async def ssea():
+    with open("./public/js/app.js") as f:
+        return f.read()
+@app.get("auth_config.json", response_class=HTMLResponse)
+async def ssea():
+    with open("auth_config.json") as f:
+        return f.read()
+    
+
+
 
 # --- API Endpoint (Smart, Fast, Free Search) ---
 @app.get("/api/search")

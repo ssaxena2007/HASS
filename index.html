@@ -3,9 +3,729 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>YouTube Shorts Clone</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .shorts-container {
+            height: 100vh;
+            width: 100%;
+            overflow-y: scroll;
+            scroll-snap-type: y mandatory;
+            -ms-overflow-style: none;  /* Hide scrollbar IE and Edge */
+            scrollbar-width: none;  /* Hide scrollbar Firefox */
+        }
+
+        /* Hide scrollbar for Chrome/Safari/Opera */
+        .shorts-container::-webkit-scrollbar {
+            display: none;
+        }
+
+        .short-item {
+            height: 100vh;
+            width: 100%;
+            position: relative;
+            scroll-snap-align: start;
+        }
+
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .video-info {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+            z-index: 1;
+        }
+
+        .creator-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .creator-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .actions {
+            position: absolute;
+            right: 20px;
+            bottom: 100px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .action-button {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .action-count {
+            font-size: 14px;
+        }
+
+        .scroll-indicator {
+            position: fixed;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 10;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .indicator-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.5);
+            transition: all 0.3s ease;
+        }
+
+        .indicator-dot.active {
+            background: white;
+            transform: scale(1.5);
+        }
+
+        /* ensure wrapper stacking so thumbnail sits on top until iframe loads */
+        .video-wrapper { position: relative; width:100%; height:100%; }
+        iframe.short-iframe {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 1;
+            background: #000;
+            border: 0;
+        }
+        .video-wrapper img.thumb {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 2; /* above iframe until iframe finishes loading */
+            transition: opacity 220ms ease;
+            opacity: 1;
+            pointer-events: none;
+        }
+
+        /* login overlay styles (added) */
+        .login-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.95);
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            flex-direction: column;
+            gap: 16px;
+            padding: 24px;
+            text-align: center;
+        }
+        .login-overlay.hidden { display: none; }
+        .login-box {
+            max-width: 420px;
+            width: 100%;
+        }
+        .login-title { font-size: 22px; margin-bottom: 8px; }
+        .login-desc { color: #ccc; margin-bottom: 20px; }
+        .auth-btn {
+            background: #ff3b3b;
+            color: white;
+            border: none;
+            padding: 12px 18px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .auth-actions { display:flex; gap:12px; justify-content:center; margin-top:8px; }
+
+        /* Corner logout button */
+        .corner-logout {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 100;
+            padding: 8px 16px;
+            background: rgba(0, 0, 0, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.2s ease;
+        }
+        .corner-logout:hover {
+            background: rgba(0, 0, 0, 0.8);
+            border-color: rgba(255, 255, 255, 0.4);
+        }
+        /* Top-right search bar */
+        .top-search {
+            position: fixed;
+            top: 16px;
+            left: 20px;
+            z-index: 150;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(0,0,0,0.6);
+            padding: 6px 10px;
+            border-radius: 24px;
+            border: 1px solid rgba(255,255,255,0.08);
+        }
+        .top-search input[type="search"] {
+            background: transparent;
+            border: none;
+            color: white;
+            outline: none;
+            width: 220px;
+            font-size: 14px;
+        }
+        .top-search button {
+            background: #1e90ff;
+            color: white;
+            border: none;
+            padding: 6px 10px;
+            border-radius: 16px;
+            cursor: pointer;
+            font-size: 13px;
+        }
+        .search-results {
+            position: fixed;
+            top: 56px;
+            left: 20px;
+            z-index: 151;
+            width: 320px;
+            max-height: 320px;
+            overflow-y: auto;
+            background: rgba(10,10,10,0.95);
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 8px;
+            padding: 8px;
+            display: none;
+        }
+        .search-results .result-item {
+            padding: 8px;
+            border-bottom: 1px solid rgba(255,255,255,0.03);
+            cursor: pointer;
+            color: #eee;
+        }
+        .search-results .result-item:last-child { border-bottom: none; }
+        .search-results .result-item:hover { background: rgba(255,255,255,0.02); }
+    </style>
+    <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
 </head>
 <body>
+    <!-- Corner logout button -->
+    <button id="cornerLogout" class="corner-logout" style="display: none" onclick="logout()">Log out</button>
+
+    <!-- Top-right search bar -->
+    <div class="top-search" id="topSearch">
+        <input id="searchInput" type="search" placeholder="Search creators or topics" aria-label="Search" />
+        <button id="searchBtn">Search</button>
+    </div>
+    <div class="search-results" id="searchResults" aria-live="polite"></div>
+
+    <!-- login overlay: covers entire app until authenticated -->
+    <div id="loginOverlay" class="login-overlay">
+        <div class="login-box">
+            <div class="login-title">Welcome — please sign in</div>
+            <div class="login-desc">Sign in to continue to the Shorts feed.</div>
+            <div id="authButtons">
+                <button id="loginBtn" class="auth-btn" onclick="login()">Log in</button>
+            </div>
+            <div id="userInfo" style="display:none; margin-top:14px;">
+                <div id="userName" style="font-weight:600;"></div>
+                <div class="auth-actions">
+                    <button id="logoutBtn" class="auth-btn" style="background:#444;">Log out</button>
+                    <button id="continueBtn" class="auth-btn" style="background:#1e90ff;">Continue</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="shorts-container" id="shortsContainer">
+        <!-- Shorts will be inserted here by JavaScript -->
+    </div>
+    <div class="scroll-indicator" id="scrollIndicator"></div>
+
+    <script>
+        // --- summary: load full DB, render a sliding window, prepend older items when user scrolls up at top ---
+
+        // local state
+        let USER_ID = null;
+        let allData = [];          // full JSON from testdata
+        let displayed = [];        // currently rendered items (array of objects)
+        let nextIndex = 0;         // next index in allData to take from (items not yet displayed)
+        const INITIAL_COUNT = 6;   // number of items to render initially
+        let currentVideoIndex = 0;
+        let isScrolling = false;
+        let touchStartY = 0;
+
+        // Add scroll state tracking
+        let isUserScrolling = false;
+        let scrollTimer = null;
+
+        // fetch the JSON database and initialize
+        /*fetch('./testdata/shorts_db.json')
+            .then(r => r.json())
+            .then(json => {
+                allData = json;
+                // start with the first INITIAL_COUNT items (or all if fewer)
+                displayed = allData.slice(0, INITIAL_COUNT);
+                nextIndex = displayed.length;
+                render();
+            })
+            .catch(err => {
+                console.error('Failed to load shorts_db.json', err);
+                // fallback: keep existing small dataset if any (no-op)
+            });*/
+        searchAPI([],6);
+        async function searchAPI(queries, coun) {
+            let arr = [];
+            while (arr.length<currentVideoIndex){
+                arr.push(arr[arr.length]);
+            }
+            // Example API call
+            try {
+                let vv = '\"['+queries.toString()+ ']\"';
+                const response = await fetch('./api/search?query='+ vv +`&count=${coun}`);
+                const response_data = await response.json();
+                arr.join(response_data);
+                arr.forEach(data => {
+                    createShortItem(data)
+                });
+                allData = arr;
+                render();
+            } catch (err) {
+                console.error('Search API error:', err);
+                return [];
+            }
+
+
+            scrollToVideo(currentVideoIndex+1)
+        }
+        // create item markup (unchanged structure but now accepts full item object)
+        function createShortItem(short) {
+            const id = short.id;
+            const title = short.snippet?.title || '';
+            const description = short.snippet?.description || '';
+            const channel = short.snippet?.channelTitle || '';
+            const thumb = short.snippet?.thumbnails?.maxres?.url || '';
+
+            // Two data-src values:
+            // - data-src-play sets autoplay=1 (used for the currently-visible short)
+            // - data-src-preload loads the iframe without autoplay (used to preload next short)
+            const playUrl = `https://www.youtube.com/embed/${id}?rel=0&controls=0&modestbranding=1&autoplay=1&playsinline=1&loop=1&playlist=${id}`;
+            const preloadUrl = `https://www.youtube.com/embed/${id}?rel=0&controls=0&modestbranding=1&playsinline=1&loop=1&playlist=${id}`;
+
+            return `
+                <div class="short-item" id="${id}">
+                    <div class="video-wrapper">
+                        <iframe
+                            class="short-iframe"
+                            data-video-id="${id}"
+                            data-src-play="${playUrl}"
+                            data-src-preload="${preloadUrl}"
+                            allow="autoplay; encrypted-media"
+                        ></iframe>
+
+                        <!-- thumbnail sits above iframe until iframe loads -->
+                        <img class="thumb" src="${thumb}" alt="${title}">
+                    </div>
+
+                    <div class="video-info">
+                        <div class="creator-info">
+                            <!---img src="https://via.placeholder.com/40" class="creator-avatar" alt="${channel}"--->
+                            <div>
+                                <h3>${channel}</h3>
+                                <h2>${title}</h2>
+                                <p>${description.split('\\n')[0] || ''}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="actions">
+                        <button class="action-button"><span class="action-count">0</span></button>
+                        <button class="action-button"><span class="action-count">0</span></button>
+                        <button class="action-button"></button>
+                    </div>
+                </div>
+            `;
+        }
+
+        // render displayed[] into the DOM, reinit indicators and intersection observers
+        function render(preserveScrollDelta = 0) {
+            const oldScrollHeight = container.scrollHeight;
+            container.innerHTML = displayed.map(item => createShortItem(item)).join('');
+            // restore scroll position to preserve view when we prepend
+            if (preserveScrollDelta) {
+                // Keep user's viewport stable after prepending: scrollTop = newHeight - oldHeight + previousScrollTop (previousScrollTop was 0 when triggered at top)
+                container.scrollTop = container.scrollHeight - oldScrollHeight + preserveScrollDelta;
+            }
+            // rebuild indicators
+            scrollIndicator.innerHTML = '';
+            displayed.forEach((_, index) => {
+                const dot = document.createElement('div');
+                dot.className = `indicator-dot ${index === currentVideoIndex ? 'active' : ''}`;
+                dot.dataset.index = index;
+                dot.addEventListener('click', () => scrollToVideo(index, index-1));
+                scrollIndicator.appendChild(dot);
+            });
+
+            // re-init observers for lazy iframe load
+            initObserversAndControls();
+        }
+
+        // init IntersectionObserver & re-hook controls that depend on DOM nodes
+        function initObserversAndControls() {
+            // disconnect previous observer if present
+            if (window._shortsIO) {
+                window._shortsIO.disconnect();
+            }
+
+            const iframes = container.querySelectorAll('iframe.short-iframe');
+            let preloadedIndex = -1; // track which index is currently preloaded (one ahead)
+
+            const io = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    const iframe = entry.target;
+                    const wrapper = iframe.closest('.video-wrapper');
+                    const thumb = wrapper?.querySelector('img.thumb');
+                    const index = Array.from(iframes).indexOf(iframe);
+
+                    // Only play if login overlay is hidden and video is visible
+                    const isLoggedIn = loginOverlay.classList.contains('hidden');
+                    if (entry.isIntersecting && entry.intersectionRatio > 0.6 && isLoggedIn) {
+                        // Play the current video
+                        const playSrc = iframe.dataset.srcPlay;
+                        if (playSrc && iframe.src !== playSrc) {
+                            iframe.src = playSrc;
+                            const onLoad = () => {
+                                if (thumb) thumb.style.opacity = '0';
+                                iframe.removeEventListener('load', onLoad);
+                            };
+                            iframe.addEventListener('load', onLoad);
+                        }
+
+                        // Only preload next if not scrolling
+                        const nextIndex = index + 1;
+                        if (nextIndex < iframes.length) {
+                            const nextIframe = iframes[nextIndex];
+                            const preloadSrc = nextIframe?.dataset?.srcPreload;
+                            if (preloadSrc && nextIframe.src !== preloadSrc) {
+                                nextIframe.src = preloadSrc;
+                                preloadedIndex = nextIndex;
+                            }
+                        } else {
+                            preloadedIndex = -1;
+                        }
+
+                        currentVideoIndex = index;
+                        const dots = scrollIndicator.querySelectorAll('.indicator-dot');
+                        dots.forEach((dot, i) => dot.classList.toggle('active', i === index));
+                    } else {
+                        // Pause when not visible
+                        if (iframe.src) iframe.src = '';
+                        if (thumb) thumb.style.opacity = '1';
+                    }
+                });
+            }, { threshold: [0.0, 0.6, 1.0] });
+
+            iframes.forEach(f => io.observe(f));
+            window._shortsIO = io; // keep reference for later disconnect
+        }
+
+        // scroll to a particular displayed index
+        function scrollToVideo(index, old) {
+            currentVideoIndex = index;
+            const items = container.querySelectorAll('.short-item');
+            if (!items[index]) return;
+            items[index].scrollIntoView({ behavior: 'smooth' });
+
+            const dots = scrollIndicator.querySelectorAll('.indicator-dot');
+            dots.forEach((dot, i) => dot.classList.toggle('active', i === index));
+        }
+
+        // PREPEND one older item (if available) to the top of displayed[].
+        // preserveScrollDelta should be the previous container.scrollTop (usually 0 when triggered at top)
+        function prependOlder() {
+            if (nextIndex >= allData.length) return false; // no older left
+            const previousScrollTop = container.scrollTop;
+            const oldScrollHeight = container.scrollHeight;
+
+            // take next item from allData and put it at the start
+            displayed.unshift(allData[nextIndex]);
+            nextIndex += 1;
+
+            // re-render and preserve scroll so viewport doesn't jump
+            render(previousScrollTop || (container.scrollHeight - oldScrollHeight));
+            return true;
+        }
+
+        // EVENT HANDLERS: detect upward attempts at top to prepend older items
+        const container = document.getElementById('shortsContainer');
+        const scrollIndicator = document.getElementById('scrollIndicator');
+
+        // touch handlers: detect swipe down at top (user pulls content down)
+        container.addEventListener('touchstart', (e) => {
+            touchStartY = e.touches[0].clientY;
+        });
+
+        container.addEventListener('touchmove', (e) => {
+            if (isScrolling) return;
+            const touchEndY = e.touches[0].clientY;
+            const diff = touchStartY - touchEndY;
+
+            // diff < 0 : user swiped down (pulling content down) -> attempt to reveal older (prepend)
+            if (diff < -60 && container.scrollTop === 0) {
+                isScrolling = true;
+                if (prependOlder()) {
+                    setTimeout(() => { isScrolling = false; }, 350);
+                } else {
+                    isScrolling = false;
+                }
+            }
+        });
+
+        container.addEventListener('touchend', () => { isScrolling = false; });
+
+        // wheel handler: if wheel up at top (deltaY < 0 and scrollTop === 0) -> prepend
+        container.addEventListener('wheel', (e) => {
+            // normal wheel navigation between items still handled by existing logic:
+            if (Math.abs(e.deltaY) > 0 && Math.abs(e.deltaX) < 10) {
+                if (isScrolling) return;
+                // if user is at the top and is scrolling up (deltaY < 0) try to prepend older
+                if (e.deltaY < 0 && container.scrollTop === 0) {
+                    if (prependOlder()) {
+                        isScrolling = true;
+                        setTimeout(() => { isScrolling = false; }, 350);
+                        e.preventDefault();
+                        return;
+                    }
+                }
+                // otherwise, allow the previous "snap" behavior: move between items
+                isScrolling = true;
+                if (e.deltaY > 0 && currentVideoIndex < displayed.length - 1) {
+                    if (currentVideoIndex<allData.length){
+                        searchAPI([], 5);
+                    }
+                    scrollToVideo(currentVideoIndex + 1, currentVideoIndex);
+                    
+                } else if (e.deltaY < 0 && currentVideoIndex > 0, currentVideoIndex) {
+                    scrollToVideo(currentVideoIndex - 1, currentVideoIndex);
+                }
+                setTimeout(() => { isScrolling = false; }, 500);
+            }
+        }, { passive: false });
+
+        // keyboard nav (unchanged)
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowUp' && currentVideoIndex > 0) scrollToVideo(currentVideoIndex - 1, currentVideoIndex);
+            else if (e.key === 'ArrowDown' && currentVideoIndex < displayed.length - 1) scrollToVideo(currentVideoIndex + 1, currentVideoIndex);
+        });
+
+        // expose a small helper to manually load more older items (optional)
+        window.loadMoreOlder = function(count = 1) {
+            let loaded = 0;
+            while (loaded < count && nextIndex < allData.length) {
+                displayed.unshift(allData[nextIndex]);
+                nextIndex += 1;
+                loaded += 1;
+            }
+            render();
+        };
+
+        // --- Auth0 integration (added) ---
+        
+        const loginOverlay = document.getElementById('loginOverlay');
+        const loginBtn = document.getElementById('loginBtn');
+        const logoutBtn = document.getElementById('logoutBtn');
+        const continueBtn = document.getElementById('continueBtn');
+        const userInfo = document.getElementById('userInfo');
+        const userName = document.getElementById('userName');
+
+        function hideOverlayAndStart() {
+            loginOverlay.classList.add('hidden');
+            // Show the corner logout button
+            document.getElementById('cornerLogout').style.display = 'block';
+            // after auth, ensure feed is visible and start playing the first video
+            // wait a tick to allow any layout changes
+            setTimeout(() => {
+                // call existing helper to scroll to first visible video
+                try { scrollToVideo(currentVideoIndex || 0, -1); }
+                catch (e) { /* ignore if function not yet present */ }
+            }, 120);
+        }
+
+        // Stop all videos when logging out
+        function stopAllVideos() {
+            const iframes = document.querySelectorAll('iframe.short-iframe');
+            iframes.forEach(iframe => {
+                if (iframe.src) {
+                    iframe.src = '';
+                    const wrapper = iframe.closest('.video-wrapper');
+                    const thumb = wrapper?.querySelector('img.thumb');
+                    if (thumb) thumb.style.opacity = '1';
+                }
+            });
+        }
+        // initial empty render until data loads
+        // (render called after fetch completes)
+    </script>
+
+<script>
+// --- Top-right search behaviour (calls example.api) ---
+(function(){
+    const input = document.getElementById('searchInput');
+    const btn = document.getElementById('searchBtn');
+    const resultsPanel = document.getElementById('searchResults');
     
+    function renderResults(items) {
+        if (!items || items.length === 0) {
+            resultsPanel.innerHTML = '<div class="result-item">No results</div>';
+            resultsPanel.style.display = 'block';
+            return;
+        }
+        resultsPanel.innerHTML = items.map(it => {
+            // support strings or objects
+            if (typeof it === 'string') return `<div class="result-item" data-payload='${escapeHtml(JSON.stringify({id: it, title: it}))}'>${escapeHtml(it)}</div>`;
+            const title = it.title || it.name || it.id || JSON.stringify(it);
+            return `<div class="result-item" data-payload='${escapeHtml(JSON.stringify(it))}'>${escapeHtml(title)}</div>`;
+        }).join('');
+        resultsPanel.style.display = 'block';
+
+        // attach click handlers
+        Array.from(resultsPanel.querySelectorAll('.result-item')).forEach(el => {
+            el.addEventListener('click', () => {
+                const payload = el.getAttribute('data-payload');
+                try {
+                    const obj = JSON.parse(unescapeHtml(payload));
+                    // Populate the search input with the most sensible text
+                    // Prefer `title`, then `id`, then the raw string
+                    const value = (obj && (obj.title || obj.name || obj.id)) || String(obj || '');
+                    input.value = value;
+                    input.focus();
+                    // Optionally: select the input text for easy replacement
+                    input.select();
+                } catch(e) {
+                    // Fallback: use the element text
+                    input.value = el.textContent.trim();
+                    input.focus();
+                    input.select();
+                }
+                resultsPanel.style.display = 'none';
+            });
+        });
+    }
+
+    function escapeHtml(s){ return (s+'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/'/g,'&#39;').replace(/"/g,'&quot;'); }
+    function unescapeHtml(s){ return (s+'').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&#39;/g, "'").replace(/&quot;/g,'"'); }
+
+    async function performSearch(q){
+        // Search through the local `search.txt` file.
+        if (!q || q.trim().length < 1) { resultsPanel.style.display = 'none'; return; }
+        resultsPanel.innerHTML = '<div class="result-item">Searching...</div>';
+        resultsPanel.style.display = 'block';
+        try {
+            const res = await fetch('./search.txt', { cache: 'no-store' });
+            if (!res.ok) throw new Error('Failed to load search.txt');
+            const text = await res.text();
+            const lines = text.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+            const ql = q.toLowerCase();
+            const matched = [];
+            for (const line of lines) {
+                // support `id|title` or plain lines
+                let id = null; let title = line;
+                if (line.includes('|')) {
+                    const parts = line.split('|');
+                    id = parts[0].trim();
+                    title = parts.slice(1).join('|').trim();
+                }
+                if (line.toLowerCase().includes(ql) || (title && title.toLowerCase().includes(ql)) || (id && id.toLowerCase().includes(ql))) {
+                    matched.push(id ? { id, title } : title);
+                }
+            }
+            renderResults(matched);
+        } catch (err) {
+            console.warn('Search failed', err);
+            resultsPanel.innerHTML = `<div class="result-item">Error performing search</div>`;
+            resultsPanel.style.display = 'block';
+        }
+    }
+
+    // click outside closes panel
+    document.addEventListener('click', (e) => {
+        if (!document.getElementById('topSearch').contains(e.target) && !resultsPanel.contains(e.target)) {
+            resultsPanel.style.display = 'none';
+        }
+    });
+
+    // bind events
+    btn.addEventListener('click', () => {
+        if (input.value !="") {
+            performSearch(input.value);
+            resultsPanel.style.display = 'none';
+            searchAPI(debouncedSearch(input.value).push(input.value), 5)
+        }
+    });
+
+    // debounce helper so we don't re-run search on every millisecond keystroke
+    function debounce(fn, wait) {
+        let t = null;
+        return function(...args) {
+            if (t) clearTimeout(t);
+            t = setTimeout(() => fn.apply(this, args), wait);
+        };
+    }
+
+    const debouncedSearch = debounce((val) => performSearch(val), 180);
+
+    // Run live search as the user types (debounced)
+    input.addEventListener('input', (e) => {
+        debouncedSearch(e.target.value);
+    });
+
+    input.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') { e.preventDefault(); performSearch(input.value); }
+        if (e.key === 'Escape') { resultsPanel.style.display = 'none'; }
+    });
+
+})();
+</script>
+
+  <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+    <script src="public/js/app.js"></script>
+
 </body>
 </html>
