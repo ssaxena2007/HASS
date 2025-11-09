@@ -8,6 +8,7 @@ import requests
 import json
 import isodate
 
+
 # --- Configuration ---
 # This is where i paste my YouTube API key
 YOUR_YOUTUBE_API_KEY = "AIzaSyDlDocvLsGvxbZf37dmCDrkr__fEzQj7VA"
@@ -30,7 +31,7 @@ APPROVED_CHANNELS = [
     "UCzNf0liwUzMN6_pixbQlMhQ",  # Coder Coder 
 ]
 
-#Converts a YouTube ISO 8601 duration string to total seconds.
+#Converts a YouTube ISO 8601 duration string to total seconds. We need this to make sure the videos we add to our database are less than 61 seconds
 
 def parse_duration(duration_str):
 
