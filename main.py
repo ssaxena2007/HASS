@@ -11,7 +11,7 @@ import isodate
 
 # --- Configuration ---
 # This is where i paste my YouTube API key
-YOUR_YOUTUBE_API_KEY = "AIzaSyDlDocvLsGvxbZf37dmCDrkr__fEzQj7VA"
+YOUR_YOUTUBE_API_KEY = ""
 
 #This is the list of approved channels from which all the shorts are being pulled from
 APPROVED_CHANNELS = [
