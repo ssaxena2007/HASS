@@ -3,7 +3,7 @@ import time     # To add delays for the API
 import httpx    
 
 # --- Configuration ---
-YOUR_GEMINI_API_KEY = "AIzaSyAgfRz6Mx5Lv1liZmQbNEe4-FsL5NWdOLY" 
+YOUR_GEMINI_API_KEY = "" 
 INPUT_DB_FILE = "shorts_db.json"
 OUTPUT_DB_FILE = "categorized_db.json"
 # ---------------------
